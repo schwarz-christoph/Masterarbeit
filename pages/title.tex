@@ -1,0 +1,36 @@
+\titlehead{
+	\begin{flushright}
+		\includegraphics[width=50mm]{logos/university_logo}
+	\end{flushright}
+	\begin{center}
+		{\Large \getUniversity}\\
+		{\large \getFaculty}
+		\vspace*{10mm}
+	\end{center}
+}
+
+\subject{\getDoctype\ zum Thema:}
+
+\title{\vspace{-10mm} \large \getTitle \\ \vspace{4pt} \small \getTitleEn}
+
+\author{}
+
+\date{}
+
+\publishers{
+	\parbox{\textwidth}{
+		\vspace*{30mm}
+		\large
+		\begin{tabularx}{0.8\textwidth}{lX}
+			\textbf{Vorgelegt von:} & \getAuthor \\[0.4em]
+			\textbf{Matrikelnummer:} & \getMatriculationNumber \\[0.4em]
+			\textbf{Studiengang:} & \getCourse \\[0.4em]
+			\textbf{Betreuer:} & \getSupervisor \\[0.4em]
+			\textbf{Firma:} & \getFactory \\[0.4em]
+			\textbf{Firma Betreuer:} & \getFactorySupervisor \\[0.4em]
+			\textbf{Abgabedatum:} & \getSubmissionDate \\[0.4em]
+		\end{tabularx}
+	}
+}\normalsize
+
+\maketitle
