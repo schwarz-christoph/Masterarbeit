@@ -8,7 +8,17 @@ Im Nachfolgenden soll die Funktechnologie auf der diese Arbeit aufbaut beschrieb
 \end{figure}
 
 \subsubsection*{LoRa}
-LoRa ist ein proprietäres und patentiertes drahtloses Übertragungsverfahren, das von der Semtech Corporation entwickelt wurde. Die Technologie arbeitet auf der physikalischen Schicht (Bitübertragungsschicht) und verwendet die Spread-Spectrum-Modulationstechnik \textit{Chirp Spread Spectrum} (CSS). CSS beinhaltet die Frequenzvariation eines Signals über die Zeit (Chirping). Ein „Upchirp“ ist eine Erhöhung der Frequenz von niedrig nach hoch, während ein „Downchirp“ eine Absenkung der Frequenz von hoch nach niedrig darstellt (siehe Abbildung \ref{fig:lora-chirp}). Diese Methode verteilt das Datensignal über ein breiteres Frequenzband, wodurch es robust gegenüber Rauschen und Interferenzen wird. 
+
+\paragraph*{Einordnung und Überblick}  
+LoRa ist ein proprietäres und patentiertes drahtloses Übertragungsverfahren, das von der Semtech Corporation entwickelt wurde. 
+Die Technologie arbeitet auf der physikalischen Schicht (Bitübertragungsschicht) und basiert auf der Spread-Spectrum-Modulationstechnik \textit{Chirp Spread Spectrum} (CSS). 
+Ziel von LoRa ist es, mit sehr geringem Energieverbrauch eine hohe Reichweite zu ermöglichen, auch unter schwierigen Ausbreitungsbedingungen. 
+
+\paragraph*{Modulationstechnik}  
+hirp Spread Spectrum (CSS) ist ein Modulationsverfahren, bei dem die Frequenz des Signals während der Übertragungszeit kontinuierlich ansteigt oder abfällt.
+Ein „Upchirp“ (Abbildung \ref{fig:lora-chirp} rechts) ist eine Erhöhung der Frequenz von niedrig nach hoch, während ein „Downchirp“ (Abbildung \ref{fig:lora-chirp} links) eine Absenkung der Frequenz von hoch nach niedrig darstellt. 
+Durch diese Methode wird das Datensignal über ein breiteres Frequenzband verteilt, wodurch es robust gegenüber Rauschen und Interferenzen wird.  
+Ein wesentlicher Vorteil von CSS gegenüber anderen Modulationstechniken, wie z.\,B. der in Abschnitt \ref{sec:drahtlosedatenübertragung} genannten FSK, ist die Fähigkeit, Signale selbst dann zu dekodieren, wenn sie unterhalb des Rauschpegels liegen.
 
 \begin{figure}[H]
 \centering
@@ -17,31 +27,22 @@ LoRa ist ein proprietäres und patentiertes drahtloses Übertragungsverfahren, d
 \label{fig:lora-chirp}
 \end{figure}
 
-Ein wesentlicher Vorteil von CSS gegenüber anderen Modulationstechniken, wie z.\,B. der in Abschnitt \ref{sec:drahtlosedatenübertragung} genannten FSK, ist die Fähigkeit, Signale selbst dann zu dekodieren, wenn sie unterhalb des Rauschpegels liegen. Dies wird durch die große Zeit-Bandbreite und die orthogonale Struktur der Chirp-Symbole ermöglicht.
-
-\paragraph*{Spreading Factor} 
-Der Spreading Factor (SF) beschreibt das Verhältnis zwischen der Chiprate und der Symbolrate. Wie aus Gleichung \ref{eq:spredigfactorbandwith} \cite[S.6]{rhode&schwarzCharacterizationLoRaDevices} ersichtlich, 
-\begin{equation}
-\label{eq:spredigfactorbandwith}
-R_b = \frac{SF \cdot B}{2^{SF}} * \frac{4}{4 + CR},
-\end{equation}
-führt eine Erhöhung des SF zu einer größeren Reichweite, da das Signal robuster gegenüber Rauschen und Störungen wird. Gleichzeitig verringert sich jedoch die erzielbare Datenrate.
-
-
-\paragraph*{Symbolstruktur und Datenübertragung}
-Die Datenübertragung in LoRa erfolgt in Symbolen, die durch eine Folge von Chirps realisiert werden. Ein Symbolindex $s(nT_s)$ wird aus $SF$ (Spreading Factor) Bits gebildet (siehe Formel \ref{eq:lorasymbolindex}).
+\paragraph*{Symbolstruktur und Datenübertragung}  
+Die Datenübertragung in LoRa erfolgt in Symbolen, die durch eine Folge von Chirps realisiert werden. 
+Ein Symbolindex $s(nT_s)$ wird aus $SF$ (Spreading Factor) Bits gebildet (siehe Formel \ref{eq:lorasymbolindex}).
 \begin{equation}
 \label{eq:lorasymbolindex}
 s(nT_s) = \sum_{h=0}^{SF-1} w_h(nT_s) \cdot 2^h, \quad s \in \{0,1,\dots,2^{SF}-1\}
 \end{equation}
 Jedes Symbol hat eine Dauer $T_s = 2^{SF} \cdot T$, wobei $T = \frac{1}{B}$ die Abtastperiode ist und $B$ die genutzte Bandbreite.
 
-Das modulierte Signal für ein Symbol $s(nT_s)$ ist in Formel \ref{eq:loramoduliertesignal} zu sehen.
+Das modulierte Signal für ein Symbol $s(nT_s)$ ist in Formel \ref{eq:loramoduliertesignal} dargestellt.
 \begin{equation}
 \label{eq:loramoduliertesignal}
 c(nT_s + kT) = \frac{1}{\sqrt{2^{SF}}} e^{j 2\pi \frac{[(s(nT_s)+k) \bmod 2^{SF}] \cdot k}{2^{SF}}}, \quad k=0,\dots, 2^{SF}-1
 \end{equation}
-Dieses Signal stellt einen linearen Frequenzanstieg (Upchirp) dar, der um eine frequenzabhängige Startposition (abhängig vom Symbolwert $s$) verschoben ist. Ein Beispiel für diese Symbole kann Abbildung \ref{fig:lora-symbole} entnommen werden.
+Dieses Signal stellt einen linearen Frequenzanstieg (Upchirp) dar, der um eine frequenzabhängige Startposition (abhängig vom Symbolwert $s$) verschoben ist. 
+Ein Beispiel für diese Symbole ist in Abbildung \ref{fig:lora-symbole} dargestellt.
 
 \begin{figure}[H]
 \centering
@@ -50,32 +51,75 @@ Dieses Signal stellt einen linearen Frequenzanstieg (Upchirp) dar, der um eine f
 \label{fig:lora-symbole}
 \end{figure}
 
-\paragraph*{Erkennung unterhalb des Rauschpegels}
-Die Fähigkeit, Signale unterhalb des Rauschpegels zu detektieren, basiert auf der \textit{Korrelation} zwischen empfangenem Signal und den orthogonalen Referenz-Chirps. Da LoRa-Symbole die gesamte Bandbreite $B$ abtasten, erfolgt eine Art \textit{Spektralspreizung}, die eine Energieintegration über die gesamte Symbolzeit ermöglicht. Der optimale Empfänger multipliziert das Empfangssignal mit einem Downchirp und führt anschließend eine diskrete Fourier-Transformation (DFT) durch. Das Maximum im Frequenzspektrum gibt den übertragenen Symbolindex an (siehe Formel \ref{eq:lorasymbolindex2}).
+\paragraph*{Spreading Factor}  
+Ein wesentlicher Parameter für LoRa ist der \textit{Spreading Factor} (SF). Er legt fest, wie lange ein Symbol dauert und wie viele verschiedene Symbolwerte pro $T_s$ unterschieden werden können. Technisch gesehen beschreibt der SF das Verhältnis zwischen Chiprate und Symbolrate. Wie aus Gleichung \ref{eq:spredigfactorbandwith} \cite[S.6]{rhode&schwarzCharacterizationLoRaDevices} hervorgeht, wirkt sich der SF direkt auf die erreichbare Datenrate $R_b$ aus:  
+
+\begin{equation}
+\label{eq:spredigfactorbandwith}
+R_b = \frac{SF \cdot B}{2^{SF}} * \frac{4}{4 + CR},
+\end{equation}
+
+Mit steigendem SF verlängert sich die Dauer eines Symbols, da der zugrunde liegende Chirp über eine größere Zeitspanne ausgesendet wird. Dadurch wird die Übertragung robuster gegenüber Rauschen und Störungen und erlaubt größere Reichweiten. Gleichzeitig sinkt jedoch die Datenrate, da weniger Symbole pro Zeiteinheit übertragen werden können. In der Praxis bedeutet das: Ein niedriger SF (z.\,B. SF7) ermöglicht eine hohe Datenrate, eignet sich aber nur für kurze Distanzen mit gutem Empfang, während ein hoher SF (z.\,B. SF12) sehr große Reichweiten erlaubt, jedoch nur eine geringe Datenrate bereitstellt. Der Spreading Factor stellt somit einen zentralen Kompromiss zwischen Reichweite und Datenrate dar.  
+
+
+\paragraph*{Signalverarbeitung im Empfänger}  
+Die Fähigkeit, Signale unterhalb des Rauschpegels zu erkennen, basiert auf der \textit{Korrelation} zwischen empfangenem Signal und den  Referenz-Chirps. 
+Da LoRa-Symbole die gesamte Bandbreite $B$ abtasten, erfolgt eine Art \textit{Spektralspreizung}, die eine Energieintegration über die gesamte Symbolzeit ermöglicht. 
+Der optimale Empfänger multipliziert das Empfangssignal mit einem Downchirp und führt anschließend eine diskrete Fourier-Transformation (DFT) durch. 
+Das Maximum im Frequenzspektrum gibt den übertragenen Symbolindex an (siehe Formel \ref{eq:lorasymbolindex2}).
 \begin{equation}
 \label{eq:lorasymbolindex2}
 \hat{s}(nT_s) = \arg \max_p \left| \sum_{k=0}^{2^{SF}-1} r(nT_s+kT) \cdot e^{-j 2\pi \frac{k^2}{2^{SF}}} \cdot e^{-j 2\pi \frac{p k}{2^{SF}}} \right|
 \end{equation}
-Durch die Integration über $T_s$ kann das Signal-Rausch-Verhältnis effektiv erhöht werden, wodurch eine Dekodierung auch unterhalb des thermischen Rauschpegels möglich ist. \autocite{tulkaLoRaSpreadingFactor, 8067462}
+Durch die Integration über $T_s$ kann das Signal-Rausch-Verhältnis effektiv erhöht werden, wodurch eine Dekodierung auch unterhalb des Rauschpegels möglich ist. \autocite{tulkaLoRaSpreadingFactor, 8067462}  
+
+\paragraph*{Regulatorische Rahmenbedingungen (EU)}
+In Europa wird das EU863–870-Band für LoRa verwendet mit \emph{Duty-Cycle}-Grenzen je Subband und Sendeleistungsgrenzen. Gerätekonfiguration und Kanalpläne folgen den \emph{LoRa Alliance Regional Parameters} (RP002), während die verbindlichen Funkparameter in \emph{ETSI EN~300~220} festgelegt sind. 
+\autocite{RP002104, ETSIEN3002202025}
+
+\paragraph*{Zusammenfassung}  
+LoRa nutzt CSS als Modulationstechnik, wodurch eine robuste Datenübertragung selbst unter dem Rauschpegel möglich ist. 
+Der Spreading Factor ist der zentrale Parameter, der Reichweite und Datenrate bestimmt. 
+Die Datenübertragung erfolgt über symmetrische Chirp-Symbole, die durch Korrelation und Fourier-Analyse effizient erkannt werden können. 
+Damit eignet sich LoRa besonders für Anwendungen mit geringer Datenrate, aber hoher Reichweitenanforderung. 
 
 
-\subsubsection*{LoraWAN} 
+\subsubsection*{LoRaWAN} 
 \label{sec:lorawan}
 
-LPWANs (Low Power Wide Area Networks) ermöglichen energieeffiziente Kommunikation über große Distanzen und gelten daher als eine Schlüsseltechnologie für das Internet der Dinge (IoT). LoRaWAN zählt zu den vielversprechendsten LPWAN-Technologien. Es bietet geringe Leistungsaufnahme, niedrige Kosten und große Reichweite, geht jedoch mit einer geringen Datenrate einher.
+LPWANs (Low Power Wide Area Networks) ermöglichen energieeffiziente Kommunikation über große Distanzen und gelten daher als eine Schlüsseltechnologie für das Internet der Dinge (IoT). LoRaWAN zählt zu den vielversprechendsten LPWAN-Technologien. Es bietet geringe Leistungsaufnahme, niedrige Kosten und große Reichweite, geht jedoch mit einer geringen Datenrate einher. Während LoRa lediglich die physikalische Modulation beschreibt, definiert LoRaWAN (Long Range Wide Area Network) das darüberliegende Netzwerkprotokoll und die Architektur für die Kommunikation zwischen Endgeräten, Gateways und Netzwerkservern.
 
-Das LoRaWAN-Kommunikationssystem besteht aus Endgeräten, Gateways, einem Netzwerkserver und den jeweiligen Anwendungen. Die Endgeräte kommunizieren über Funk mit den Gateways, welche die Daten an den Netzwerkserver weiterleiten. Von dort aus können dann andere Applikationen, meist über MQTT, die Daten auslesen und verwerten. 
+\paragraph*{LoRaWAN Netzwerkarchitektur}
+Ein typisches LoRaWAN-Netzwerk besteht aus drei zentralen Komponenten. An erster Stelle stehen die Endgeräte, auch \textit{Nodes} genannt (in Abbildung \ref{fig:lorawan-architektur} unter \textit{End Nodes}). Dabei handelt es sich um Sensoren oder Aktoren, die Daten erfassen oder Befehle ausführen können. Diese Geräte besitzen keine direkte Internetanbindung, sondern lediglich einen LoRa-Chip sowie den LoRaWAN-Stack in ihrer Firmware. Alle Daten werden also über diese Schnittstelle empfangen oder gesendet.
 
-\paragraph*{LoRaWAN-Geräteklassen}
-Die LoRaWAN-Spezifikation definiert drei Endgeräteklassen \autocite{sornin2015lorawan}:
+Die zweite Komponente bilden die Gateways (in Abbildung \ref{fig:lorawan-architektur} unter \textit{Concentrator / Gateway}). Sie sind mit einem LoRa-Chip und einer aktiven Internetverbindung ausgestattet und fungieren als Schnittstelle zwischen der drahtlosen LoRa-Kommunikation und dem IP-Netzwerk. Sobald ein Gateway ein gültiges LoRaWAN-Paket empfängt, leitet es dieses an den Netzwerkserver weiter.
 
-\begin{itemize}
-    \item \textbf{Class A:} Für batteriebetriebene Geräte optimiert. Unterstützt bidirektionale Kommunikation mit einem Uplink-Fenster, gefolgt von zwei Downlink-Empfangsfenstern (RX1, RX2). Diese Funktionalität muss auf allen LoRaWAN-Geräten implementiert werden.
-    
-    \item \textbf{Class B:} Bietet zusätzlich geplante Empfangsfenster für vorhersagbare Downlinks. Geräte beginnen als Class A und können vom Server in Class B versetzt werden.
-    
-    \item \textbf{Class C:} Für netzbetriebene Geräte mit kontinuierlich offenem Empfangsfenster (RX2), was geringe Latenz ermöglicht. Diese Geräte verbrauchen mehr Energie im Vergleich zu anderen Geräteklassen.
-\end{itemize}
+Der Netzwerkserver stellt die zentrale Instanz des gesamten LoRaWAN-Systems dar (in Abbildung \ref{fig:lorawan-architektur} unter \textit{Network Server}). Er filtert redundante Nachrichten, übernimmt die Authentifizierung und Sicherheit, steuert die Weiterleitung an die jeweiligen Anwendungsserver und verwaltet gleichzeitig die angebundenen Endgeräte \cite{LoRaWANArchitecture}.
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=.135]{figures/asstes/lorawan-architecture.png}
+\caption{LoRaWAN Architektur | Quelle: \cite{LoRaWANArchitecture}}
+\label{fig:lorawan-architektur}
+\end{figure} 
+
+\paragraph*{LoRaWAN Geräteklassen}
+LoRaWAN unterscheidet drei Gerätekategorien, die sich vor allem in ihren Energiesparmechanismen und Kommunikationsmöglichkeiten unterscheiden. Die energieeffizienteste Variante und zugleich die Mindestanforderung an ein LoRaWAN-Endgerät ist die Geräteklasse \textbf{A}. Sie eignet sich besonders für batteriebetriebene Systeme. Wie alle Klassen unterstützt auch Klasse A eine bidirektionale Kommunikation. Um den Energieverbrauch jedoch so gering wie möglich zu halten, können Downlink-Nachrichten vom Netzwerkserver nur kurz nach einem Uplink empfangen werden. Zu diesem Zweck öffnet das Endgerät nach jeder eigenen Übertragung zwei kurze Empfangsfenster (RX1 und RX2).
+
+Die Geräteklasse \textbf{B} erweitert dieses Konzept um zusätzliche, periodische Empfangsfenster. Dadurch lassen sich Downlink-Nachrichten planbar zustellen. Jedes Gerät startet zunächst in Klasse A und kann vom Netzwerkserver in Klasse B versetzt werden, sofern es den entsprechenden Standard unterstützt.
+
+Die dritte Kategorie ist die Geräteklasse \textbf{C}. Sie ist vor allem für netzbetriebene Geräte gedacht, da ihr Empfangsfenster (RX2) permanent geöffnet ist. Damit wird eine verzögerungsfreie Kommunikation zwischen Endgerät und Netzwerkserver möglich, was allerdings mit einem deutlich höheren Energieverbrauch verbunden ist \autocite{sornin2015lorawan}.
+
+\paragraph*{LoRaWAN Join-Mechanismen}  
+Damit ein Endgerät Nachrichten an ein LoRaWAN-Netzwerk senden kann, muss es sich zunächst anmelden. Hierfür existieren zwei grundlegende Verfahren: \textit{Over-The-Air Activation} (OTAA) und \textit{Activation by Personalization} (ABP).  
+
+Bei OTAA, dem empfohlenen und sichersten Mechanismus, authentifiziert sich das Endgerät über einen Join-Vorgang beim Netzwerkserver. Das Gerät sendet dazu eine Join-Request-Nachricht, die unter anderem die eindeutige Gerätekennung \textit{DevEUI} sowie eine eindeutige Anwendungskennung enthält. In LoRaWAN v1.0.x wird diese als \textit{AppEUI} bezeichnet, während ab v1.1 der Begriff \textit{JoinEUI} verwendet wird. Zusätzlich wird ein \textit{DevNonce} übertragen, ein einmaliger Wert, der sicherstellt, dass Join-Nachrichten nicht wiederverwendet werden können, um Replay-Angriffe zu verhindern. Die Join-Nachricht ist zwar unverschlüsselt, jedoch mit einem MIC (Message Integrity Code) abgesichert.  
+
+Nach erfolgreicher Prüfung sendet der Netzwerkserver eine Join-Accept-Nachricht zurück, die weitere Parameter wie \textit{NetID}, \textit{DevAddr} sowie Nonces für die Schlüsselerzeugung enthält. Anschließend werden die Sitzungsschlüssel abgeleitet. In LoRaWAN v1.0.x entstehen aus dem geheimen \textit{AppKey} zwei Session Keys, nämlich der \textit{NwkSKey} für die Netzwerkschicht und der \textit{AppSKey} für die Anwendungsschicht. Ab Version 1.1 unterscheidet LoRaWAN stärker zwischen Netzwerk- und Anwendungsebene. Hier wird der \textit{AppSKey} weiterhin aus dem \textit{AppKey} erzeugt, während drei verschiedene Netzwerkschlüssel (\textit{FNwkSIntKey}, \textit{SNwkSIntKey} und \textit{NwkSEncKey}) aus einem separaten \textit{NwkKey} abgeleitet werden. Durch diese Trennung wird die Sicherheit und Flexibilität bei der Schlüsselverwaltung erhöht.  
+
+Im Gegensatz dazu verzichtet ABP vollständig auf einen Join-Prozess. Die für die Kommunikation erforderlichen Parameter, also die Geräteadresse \textit{DevAddr} sowie die Session Keys, werden hierbei direkt im Gerät vorkonfiguriert und auch im Netzwerkserver hinterlegt. In LoRaWAN v1.0.x handelt es sich dabei um den \textit{NwkSKey} und den \textit{AppSKey}, während ab Version 1.1 zusätzlich die drei Netzwerkschlüssel \textit{FNwkSIntKey}, \textit{SNwkSIntKey} und \textit{NwkSEncKey} berücksichtigt werden müssen. ABP ermöglicht somit eine sofortige Nutzung des Netzwerks, bietet jedoch geringere Sicherheit, da die Schlüssel statisch sind und nicht regelmäßig erneuert werden.  
+
+Zusammenfassend bietet OTAA durch die dynamische Erzeugung von Sitzungsschlüsseln bei jedem Join deutlich mehr Sicherheit und Flexibilität, während ABP vor allem für Testaufbauten oder spezielle Szenarien mit festen Parametern genutzt wird.  
 
 \paragraph*{Leistungsmerkmale und Herausforderungen}
 LoRaWAN kann durch Parameteroptimierung an unterschiedliche Anwendungen angepasst werden. Wichtige Designaspekte sind Skalierbarkeit, Durchsatz, Abdeckung, Energieeffizienz und geringe Kosten \cite{bor2017lora}. Herausforderungen bestehen insbesondere in:
@@ -83,18 +127,13 @@ LoRaWAN kann durch Parameteroptimierung an unterschiedliche Anwendungen angepass
 \begin{itemize}
     \item \textbf{Skalierbarkeit:} Beeinflusst durch Faktoren wie verfügbare Kanäle, Spreizfaktor, Bandbreite und regulatorische Einschränkungen. In Europa steht für LoRa das Band von 863 MHz bis 870 MHz zur Verfügung, in Amerika von 902 MHz bis 928 MHz \autocite{FrequencyPlans}.
     
-    \item \textbf{Energieeinsparung:} Durch die Adaptive Data Rate (ADR) oder eine optimierte Parameterwahl kann durch LoraWAN nochmals zusätzlich zu der ohnehin schon EStromspaarenden Lora-Technologie Energie eingespaart werden \autocite{kufakunesuSurveyAdaptiveData2020}.
+    \item \textbf{Energieeinsparung:} Durch die Adaptive Data Rate (ADR) oder eine optimierte Parameterwahl kann der Energieverbrauch zusätzlich reduziert werden \autocite{kufakunesuSurveyAdaptiveData2020}.
     
-    \item \textbf{Sicherheit:} Bei LoRaWAN spielt Sicherheit eine sehr wichtige Rolle, da Daten über Funk übertragen werden und damit leicht abgefangen werden könnten. Um das zu verhindern, werden Ende-zu-Ende-Schlüssel verwendet. Das bedeutet, dass Nachrichten bereits beim Gerät verschlüsselt werden und nur die dafür vorgesehenen Server diese wieder entschlüsseln können.  In der Praxis wird meist das Verfahren \emph{OTAA} (Over-The-Air Activation) eingesetzt. Dabei meldet sich das Gerät zunächst mit einem sogenannten Join-Vorgang am Netzwerk an. Hierfür gibt es einen eigenen \emph{Join Server}, der für die Schlüsselverwaltung zuständig ist. Nach erfolgreichem Join erhält das Gerät individuelle Sitzungsschlüssel, die für die eigentliche Kommunikation genutzt werden.  In öffentlichen Netzen ist es besonders wichtig, dass die verschiedenen Aufgaben klar voneinander getrennt sind. Der \emph{Join Server} übernimmt die Schlüsselverwaltung und den Beitritt, der \emph{Network Server} kümmert sich um die Organisation und Sicherheit des Funknetzes, und der \emph{Application Server} verarbeitet am Ende die entschlüsselten Anwendungsdaten. Diese Aufgabentrennung verhindert, dass Betreiber oder andere Parteien mehr Informationen einsehen können, als für sie notwendig ist. Außerdem wird dadurch eine sichere Verwaltung von Schlüsseln in Lieferketten und bei mehreren Nutzern (Multi-Tenant) ermöglicht, ohne dass ein Verlust der Schlüssel (\emph{Key Custody}) droht.  Damit die verschiedenen Server reibungslos zusammenarbeiten, wurden standardisierte Schnittstellen (Backend-Interfaces) entwickelt, die genau festlegen, wie die Kommunikation zwischen den Komponenten erfolgen soll. Untersuchungen zeigen zudem, dass die neuere Version \emph{LoRaWAN 1.1} deutliche Sicherheitsverbesserungen im Vergleich zur älteren Version 1.0 bietet. \autocite{butun2019security, LoRaWANBackendInterfaces11}
-
+    \item \textbf{Sicherheit:} LoRaWAN setzt auf Ende-zu-Ende-Verschlüsselung mit einer klaren Aufgabentrennung zwischen Join Server, Network Server und Application Server. Damit werden Schlüssel sicher verwaltet, Betreiber erhalten nur die für sie notwendigen Informationen, und Multi-Tenant-Szenarien werden unterstützt. Neuere Spezifikationen (ab v1.1) verbessern zudem die Schlüsselverwaltung durch die Trennung von Anwendungs- und Netzwerkschlüsseln \autocite{butun2019security,LoRaWANBackendInterfaces11}.
 \end{itemize}
 
-\paragraph*{Join-Mechanismus (OTAA)}
-\label{sec:joinmechanissmus_otaa}
-Bei der \emph{Over-The-Air Activation (OTAA)} meldet sich ein Endgerät bei dem Netzwerk an, indem es eine \emph{Join-Request}-Nachricht mit \emph{JoinEUI} (in LoRaWAN~1.0.x \emph{AppEUI}), \emph{DevEUI} und einem inkrementierenden \emph{DevNonce} sendet. Der \emph{DevNonce} ist ein 16-Bit-Wert und darf nie wiederverwendet werden. Dieser Wert muss in einem persistenten Speicher verwaltet werden. Der \emph{Join Server} prüft die Anfrage, generiert Sitzungsschlüssel und sendet eine verschlüsselte \emph{Join-Accept}-Nachricht zurück. In LoRaWAN~1.0.x werden dabei \emph{NwkSKey} und \emph{AppSKey} abgeleitet. In LoRaWAN~1.1 ersetzt ein erweitertes Schlüsselschema das \emph{NwkSKey} durch mehrere Netzwerkschlüssel (\emph{FNwkSIntKey}, \emph{SNwkSIntKey}, \emph{NwkSEncKey}). Der \emph{AppSKey} bleibt für Applikationsdaten bestehen. Eine erneute Anmeldung wird nur erforderlich, wenn Sitzungsschlüssel erneuert werden müssen. \autocite{thethingsnetworkJoin,techplayonJoin}
-
 \paragraph*{Anwendungsgebiete}
-LoRaWAN eignet sich für zahlreiche IoT-Szenarien, darunter smarte digitale Städte, smarte Messungen für zum Beispiel Pflanzen, smarter Parkverkehr indem Autofarern und Autofahrerinnen der weg zu einem freien Parkplatzt gezeigt wird oder intelligente Straßenbeleuchtung \autocite{BadenWuerttembergFoerdertLong2024}. Aufgrund der niedrigen Bitrate ist der Einsatz jedoch auf Anwendungen mit geringer Datenübertragungsrate beschränkt.
+LoRaWAN eignet sich für zahlreiche IoT-Szenarien, darunter smarte digitale Städte, smarte Messungen (z.\,B. für Pflanzen), intelligentes Parkraummanagement oder adaptive Straßenbeleuchtung \autocite{BadenWuerttembergFoerdertLong2024}. Aufgrund der niedrigen Bitrate ist der Einsatz jedoch auf Anwendungen mit geringer Datenübertragungsrate beschränkt.
 
 \paragraph*{Roaming, Peering und Interoperabilität}
 LoRaWAN-Roaming erlaubt es, dass Endgeräte auch außerhalb des eigenen Netzwerks funktionieren können. Es gibt zwei Arten von Roaming:
@@ -108,8 +147,3 @@ Damit Roaming überhaupt funktioniert, müssen Netzbetreiber Peering- oder Roami
 \emph{Packet Broker} bietet dazu ein globales Vermittlungsnetz, das den Austausch von Paketen zwischen verschiedenen Betreibern erleichtert. Ein Beispiel ist das offene Netz \texttt{The Things Network (TTN)} mit der \texttt{NetID~000013}. 
 
 Kommerzielle Anbieter wie Senet setzen zusätzlich auf bilaterale Roaming-Vereinbarungen mit Partnernetzen, um ihre Abdeckung zu erweitern. \cite{LoRaWANBackendInterfaces11,PacketBroker,TTNNetID,SenetExt}
-
-
-\paragraph*{Regulatorische Rahmenbedingungen (EU)}
-In Europa wird das EU863–870-Band für LoRaWAN verwendet mit \emph{Duty-Cycle}-Grenzen je Subband (typisch 0{,}1–1\,\%\,/ 10\,\% im 869{,}4–869{,}65\,MHz-Subband) und Sendeleistungsgrenzen. Gerätekonfiguration und Kanalpläne folgen den \emph{LoRa Alliance Regional Parameters} (RP002), während die verbindlichen Funkparameter in \emph{ETSI EN~300~220} festgelegt sind. 
-\autocite{RP002104, ETSIEN3002202025}

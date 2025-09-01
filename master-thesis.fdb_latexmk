@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber master-thesis"] 1756740491.98384 "master-thesis.bcf" "master-thesis.bbl" "master-thesis" 1756740644.49208 0
-  "bibliography.bib" 1756739173.34595 98259 fa10551651ac542f701eb82c98971bf0 ""
-  "master-thesis.bcf" 1756740644.4092 113258 4a0a05b75e4a71d366b57af4cd8b99fe "pdflatex"
+["biber master-thesis"] 1756766270.42463 "master-thesis.bcf" "master-thesis.bbl" "master-thesis" 1756766276.5367 0
+  "bibliography.bib" 1756763673.02607 99485 f2ccaa6ba1f60350d87f27c7f34c7169 ""
+  "master-thesis.bcf" 1756766276.45175 113337 a057dc1e2db3e429256df5a95848cd2d "pdflatex"
   (generated)
   "master-thesis.bbl"
   "master-thesis.blg"
   (rewritten before read)
-["pdflatex"] 1756740642.53584 "/Users/christophschwarz/Repositories/Masterarbeit/Masterthesis/master-thesis.tex" "master-thesis.pdf" "master-thesis" 1756740644.49228 0
+["pdflatex"] 1756766274.29283 "/Users/christophschwarz/Repositories/Masterarbeit/Masterthesis/master-thesis.tex" "master-thesis.pdf" "master-thesis" 1756766276.5369 0
   "/Users/christophschwarz/Repositories/Masterarbeit/Masterthesis/master-thesis.tex" 1756657018.66548 5952 50f06de939e29d7c79139c555352a75c ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1136849721 2971 def0b6c1f0b107b3b936def894055589 ""
@@ -179,6 +179,7 @@
   "figures/asstes/frequency-shift-keying.png" 1754487531.15832 45650 64be248884dd5ad8a931c75d17cf4125 ""
   "figures/asstes/hm_logo.png" 1739274125.72163 9029 7d2f1670d9dccf623624c8a6d5cf3de5 ""
   "figures/asstes/lora-chirps.png" 1754563051.03344 56073 11096de0a09b1e630bbe7310538c5e74 ""
+  "figures/asstes/lorawan-architecture.png" 1756763655.75724 498913 deed962f9a767a35943c947538416841 ""
   "figures/asstes/lorawan-packet-layout.png" 1756482348.14239 64364 544381980242914d26e5533ced884ba9 ""
   "figures/asstes/microdoc_logo.jpeg" 1739274375.14441 6440 eccddcc49a062d5459cccae8f25960c5 ""
   "figures/asstes/n-LoRa-CSS-each-symbol-is-encoded-as-a-single-circularly-shifted-chirp-and-covers-the.png" 1754908644.2298 11029 e2d5e2acd2bb61372a780a6e2189eb23 ""
@@ -187,15 +188,15 @@
   "figures/diagrams/LoraWAN_OSI.png" 1756667065.25036 93173 e722ec0d0cd505df893a9e0160c55127 ""
   "logos/signature.png" 1739274464.97597 7946 63b9be4d8a9e327e39f09b9818778c58 ""
   "logos/university_logo.png" 1739274464.97671 25981 a794d530da23ea10e1b11aeb71d807eb ""
-  "master-thesis.aux" 1756740644.40028 34850 8caf4beef7645ee68d29447eb1de0e1a "pdflatex"
-  "master-thesis.bbl" 1756740493.48034 79422 ade35fdeadf43f39f4812a2f025405fa "biber master-thesis"
-  "master-thesis.lof" 1756740644.40973 1006 b1aeeb66da00cc4372d26a8c85dcdcf3 "pdflatex"
-  "master-thesis.lol" 1756740644.40977 95 266fb778c506bbca413fec0c0a8f3005 "pdflatex"
-  "master-thesis.lot" 1756740644.40975 194 7a35f8fb87cf148a2b685e1186d97be3 "pdflatex"
-  "master-thesis.out" 1756740643.42031 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "master-thesis.run.xml" 1756740644.40967 2400 97d9c70f0c0e0cf42aba5e821276549e "pdflatex"
+  "master-thesis.aux" 1756766276.44252 35078 dd9ebbda8e875ca0e566d22edb6b242d "pdflatex"
+  "master-thesis.bbl" 1756766272.02489 77551 3754fb2934aa8f288cda61dd90e724cf "biber master-thesis"
+  "master-thesis.lof" 1756766276.45239 1156 69b50ce50e0b371f11ced7f74a6b11d7 "pdflatex"
+  "master-thesis.lol" 1756766276.45245 95 266fb778c506bbca413fec0c0a8f3005 "pdflatex"
+  "master-thesis.lot" 1756766276.45242 194 37998b8b600dce6d57a6f57d0315a901 "pdflatex"
+  "master-thesis.out" 1756766275.20361 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "master-thesis.run.xml" 1756766276.4523 2400 97d9c70f0c0e0cf42aba5e821276549e "pdflatex"
   "master-thesis.tex" 1756657018.66548 5952 50f06de939e29d7c79139c555352a75c ""
-  "master-thesis.toc" 1756740644.40971 3850 591719dbaf5d3a9197d2541ccd761c74 "pdflatex"
+  "master-thesis.toc" 1756766276.45236 3850 fbb4cf18cd4a4b1f29ce29fb3488b35a "pdflatex"
   "pages/declaration.tex" 1756480612.97231 394 b551b5c8c867477457c8b182f7ce16db ""
   "pages/sections/01_einleitung/1_einleitung.tex" 1756325555.11589 317 0f126ce032321af65ec8ec0f5d6da231 ""
   "pages/sections/01_einleitung/methodisches_vorgehen.tex" 1756412499.79962 2341 abc6629c2e11446efd2c98afb20574a0 ""
@@ -205,7 +206,7 @@
   "pages/sections/30_theoretische_grundlagen/bandbreite_frequenz.tex" 1756412849.16798 1019 31e17075318e4d78194115340a93481c ""
   "pages/sections/30_theoretische_grundlagen/drahtlose_datenübertragung.tex" 1756665495.74475 2826 96c55d99955ab6aebf1e9d0cbe0cc436 ""
   "pages/sections/30_theoretische_grundlagen/industrielle_anwendungsbereiche.tex" 1756739089.74412 1360 dc86f3df497886af40db967accfd77ee ""
-  "pages/sections/30_theoretische_grundlagen/lora_lorawan.tex" 1756739207.36296 12567 4c9de3b521cb989c8d3a0ee33660184b ""
+  "pages/sections/30_theoretische_grundlagen/lora_lorawan.tex" 1756766267.95048 16263 335a029bfe5d497f58dc8a09cdda4790 ""
   "pages/sections/30_theoretische_grundlagen/oeffentliche_lorawan.tex" 1756740607.99279 7069 f0c87a8097d34521990ba9d3b9ad3d67 ""
   "pages/sections/30_theoretische_grundlagen/related_work.tex" 1756660306.68653 2599 986d1d4b0c39921cd790c79313dbd403 ""
   "pages/sections/30_theoretische_grundlagen/schlüsselmetriken_rssi_snr_pdr.tex" 1756412798.90957 2331 f05289b92775e022452dcea0ba8eb3e3 ""
