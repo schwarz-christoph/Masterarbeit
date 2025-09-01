@@ -1,0 +1,882 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{RP002104}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=7316dcaa8db8414d82f28a646f68df1d}{%
+           family={{A. YEGIN (Actility), O. SELLER (Semtech), D. KJENDAL (Senet), D. KJENDAL (Senet)}},
+           familyi={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {LoRa Alliance{®}}%
+      }
+      \strng{namehash}{7316dcaa8db8414d82f28a646f68df1d}
+      \strng{fullhash}{7316dcaa8db8414d82f28a646f68df1d}
+      \strng{bibnamehash}{7316dcaa8db8414d82f28a646f68df1d}
+      \strng{authorbibnamehash}{7316dcaa8db8414d82f28a646f68df1d}
+      \strng{authornamehash}{7316dcaa8db8414d82f28a646f68df1d}
+      \strng{authorfullhash}{7316dcaa8db8414d82f28a646f68df1d}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{langid}{Englisch}
+      \field{month}{9}
+      \field{title}{{LoRaWAN{®} Regional Parameters RP002-1.0.4}}
+      \field{urlday}{27}
+      \field{urlmonth}{8}
+      \field{urlyear}{2025}
+      \field{year}{2022}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /Users/christophschwarz/Zotero/storage/TQ99EVQP/_.pdf
+      \endverb
+    \endentry
+    \entry{LoRaWANBackendInterfaces11}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=0ce64cc265ae352769dc10170e241125}{%
+           family={{A.YEGIN (Actility), O.SELLER (Semtech), A.YEGIN (Actility)}},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{0ce64cc265ae352769dc10170e241125}
+      \strng{fullhash}{0ce64cc265ae352769dc10170e241125}
+      \strng{bibnamehash}{0ce64cc265ae352769dc10170e241125}
+      \strng{authorbibnamehash}{0ce64cc265ae352769dc10170e241125}
+      \strng{authornamehash}{0ce64cc265ae352769dc10170e241125}
+      \strng{authorfullhash}{0ce64cc265ae352769dc10170e241125}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{langid}{Englisch}
+      \field{title}{{LoRaWAN Backend Interfaces Specification}}
+      \field{urlday}{27}
+      \field{urlmonth}{8}
+      \field{urlyear}{2025}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /Users/christophschwarz/Zotero/storage/D478G9RJ/ts002-1-1-0-lorawan-backend-interfaces.pdf
+      \endverb
+    \endentry
+    \entry{ETSIEN3002202025}{misc}{}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Actility provides IoT connectivity and solutions to power smart cities and industries.}
+      \field{langid}{american}
+      \field{shorttitle}{Actility}
+      \field{title}{Actility: {{IoT Solutions}} for a {{Smarter World}}}
+      \field{urlday}{27}
+      \field{urlmonth}{8}
+      \field{urlyear}{2025}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /Users/christophschwarz/Zotero/storage/J5TKGUXJ/www.actility.com.html
+      \endverb
+    \endentry
+    \entry{HeliumLNSAdv}{misc}{}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Advanced Configuration}
+      \field{howpublished}{https://docs.helium.com/iot/run-an-lns/advanced-configuration/}
+      \field{langid}{english}
+      \field{title}{Advanced {{Configuration}} {|} {{Helium Documentation}}}
+      \field{urlday}{27}
+      \field{urlmonth}{8}
+      \field{urlyear}{2025}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /Users/christophschwarz/Zotero/storage/7E25RDNW/advanced-configuration.html
+      \endverb
+    \endentry
+    \entry{techplayonJoin}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=a517747c3d12f99244ae598910d979c5}{%
+           family={Author},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{a517747c3d12f99244ae598910d979c5}
+      \strng{fullhash}{a517747c3d12f99244ae598910d979c5}
+      \strng{bibnamehash}{a517747c3d12f99244ae598910d979c5}
+      \strng{authorbibnamehash}{a517747c3d12f99244ae598910d979c5}
+      \strng{authornamehash}{a517747c3d12f99244ae598910d979c5}
+      \strng{authorfullhash}{a517747c3d12f99244ae598910d979c5}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{When a new End Device (LoRa Device) is added to a LoRa network, it should go through an activation process. Through the}
+      \field{journaltitle}{Techplayon}
+      \field{langid}{english}
+      \field{month}{10}
+      \field{title}{{{LoRa Device Activation Call Flow}} {|} {{LoRA Device Join Procedure}}}
+      \field{urlday}{30}
+      \field{urlmonth}{8}
+      \field{urlyear}{2025}
+      \field{year}{2018}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /Users/christophschwarz/Zotero/storage/XZFVU4SH/lora-device-activation-call-flow-join-procedure-using-otaa-and-abp.html
+      \endverb
+    \endentry
+    \entry{BadenWuerttembergFoerdertLong2024}{misc}{}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Mit Long Range Wide Area Networks profitieren alle Menschen im Land von der Digitalisierung. Deshalb fördert die Landesregierung solche Projekte nun mit 383.000 Euro.}
+      \field{howpublished}{https://im.baden-wuerttemberg.de/de/service/presse-und-oeffentlichkeitsarbeit/pressemitteilung/pid/baden-wuerttemberg-foerdert-long-range-wide-area-networks-in-staedten-und-gemeinden}
+      \field{journaltitle}{Baden-Württemberg.de}
+      \field{langid}{ngerman}
+      \field{month}{6}
+      \field{title}{{Baden-Württemberg fördert Long Range Wide Area Networks in Städten und Gemeinden}}
+      \field{urlday}{28}
+      \field{urlmonth}{8}
+      \field{urlyear}{2025}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /Users/christophschwarz/Zotero/storage/63SDPCYQ/baden-wuerttemberg-foerdert-long-range-wide-area-networks-in-staedten-und-gemeinden.html
+      \endverb
+    \endentry
+    \entry{bor2017lora}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=3bc8bac03bdf1260b79c7bdfa5572d21}{%
+           family={Bor},
+           familyi={B\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod}}}%
+        {{hash=53323eadc521b4a22e3a15de664e36db}{%
+           family={Roedig},
+           familyi={R\bibinitperiod},
+           given={Utz},
+           giveni={U\bibinitperiod}}}%
+      }
+      \strng{namehash}{d0e3df997119d2a925bb8b7da82c5ce7}
+      \strng{fullhash}{d0e3df997119d2a925bb8b7da82c5ce7}
+      \strng{bibnamehash}{d0e3df997119d2a925bb8b7da82c5ce7}
+      \strng{authorbibnamehash}{d0e3df997119d2a925bb8b7da82c5ce7}
+      \strng{authornamehash}{d0e3df997119d2a925bb8b7da82c5ce7}
+      \strng{authorfullhash}{d0e3df997119d2a925bb8b7da82c5ce7}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2017 13th International Conference on Distributed Computing in Sensor Systems ({{DCOSS}})}
+      \field{title}{{{LoRa}} Transmission Parameter Selection}
+      \field{year}{2017}
+      \field{pages}{27\bibrangedash 34}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1109/DCOSS.2017.10
+      \endverb
+      \verb{file}
+      \verb /Users/christophschwarz/Zotero/storage/56HTH3J4/Bor und Roedig - 2017 - LoRa transmission parameter selection.pdf
+      \endverb
+      \keyw{Bandwidth,Encoding,Energy consumption,Logic gates,LoRa,Low-Power Wide-Area Network,Network servers,Performance evaluation,Reliability,Transmission Parameter Selection}
+    \endentry
+    \entry{butun2019security}{article}{}
+      \name{author}{3}{}{%
+        {{hash=7e727a17418eed0fd396637c348651f8}{%
+           family={Butun},
+           familyi={B\bibinitperiod},
+           given={Ismail},
+           giveni={I\bibinitperiod}}}%
+        {{hash=0ae7becefd6bac803524bbd4907d6047}{%
+           family={Pereira},
+           familyi={P\bibinitperiod},
+           given={Nuno},
+           giveni={N\bibinitperiod}}}%
+        {{hash=189312801b63b68a25bfa7079a4f5a61}{%
+           family={Gidlund},
+           familyi={G\bibinitperiod},
+           given={Mikael},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{98903d8ba542d6a0f168cac8ccfb489b}
+      \strng{fullhash}{98903d8ba542d6a0f168cac8ccfb489b}
+      \strng{bibnamehash}{98903d8ba542d6a0f168cac8ccfb489b}
+      \strng{authorbibnamehash}{98903d8ba542d6a0f168cac8ccfb489b}
+      \strng{authornamehash}{98903d8ba542d6a0f168cac8ccfb489b}
+      \strng{authorfullhash}{98903d8ba542d6a0f168cac8ccfb489b}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{LoRa (along with its upper layers definition---LoRaWAN) is one of the most promising Low Power Wide Area Network (LPWAN) technologies for implementing Internet of Things (IoT)-based applications. Although being a popular technology, several works in the literature have revealed vulnerabilities and risks regarding the security of LoRaWAN v1.0 (the official 1st specification draft). The LoRa-Alliance has built upon these findings and introduced several improvements in the security and architecture of LoRa. The result of these efforts resulted in LoRaWAN v1.1, released on 11 October 2017. This work aims at reviewing and clarifying the security aspects of LoRaWAN v1.1. By following ETSI guidelines, we provide a comprehensive Security Risk Analysis of the protocol and discuss several remedies to the security risks described. A threat catalog is presented, along with discussions and analysis in view of the scale, impact, and likelihood of each threat. To the best of the authors' knowledge, this work is one of the first of its kind, by providing a detailed security risk analysis related to the latest version of LoRaWAN. Our analysis highlights important practical threats, such as end-device physical capture, rogue gateway and self-replay, which require particular attention by developers and organizations implementing LoRa networks.}
+      \field{issn}{1999-5903}
+      \field{journaltitle}{Future Internet}
+      \field{number}{3}
+      \field{title}{Security Risk Analysis of {{LoRaWAN}} and Future Directions}
+      \field{volume}{11}
+      \field{year}{2019}
+      \verb{doi}
+      \verb 10.3390/fi11010003
+      \endverb
+      \verb{file}
+      \verb /Users/christophschwarz/Zotero/storage/AEM8MCFZ/Butun et al. - 2019 - Security risk analysis of LoRaWAN and future directions.pdf
+      \endverb
+    \endentry
+    \entry{HeliumDC}{misc}{}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Helium Data Credit Documentation}
+      \field{howpublished}{https://docs.helium.com/tokens/data-credit/}
+      \field{langid}{english}
+      \field{title}{Data {{Credit}} {|} {{Helium Documentation}}}
+      \field{urlday}{27}
+      \field{urlmonth}{8}
+      \field{urlyear}{2025}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /Users/christophschwarz/Zotero/storage/RYZ86G4J/data-credit.html
+      \endverb
+    \endentry
+    \entry{TTNFairUse}{misc}{}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We are building a global open free crowdsourced long range low power IoT data network}
+      \field{howpublished}{https://www.thethingsnetwork.org/docs/lorawan/duty-cycle/}
+      \field{journaltitle}{The Things Network}
+      \field{langid}{american}
+      \field{title}{Duty {{Cycle}}}
+      \field{urlday}{27}
+      \field{urlmonth}{8}
+      \field{urlyear}{2025}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /Users/christophschwarz/Zotero/storage/SYYM37GG/duty-cycle.html
+      \endverb
+    \endentry
+    \entry{thethingsnetworkJoin}{misc}{}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Every end device must be registered with a network before sending and receiving messages. This procedure is known as activation. There are two activation methods available: Over-The-Air-Activation (OTAA) - the most secure and recommended activation method for end devices. Devices perform a join procedure with the network, during which a dynamic device address is assigned and security keys are negotiated with the device. Activation By Personalization (ABP) - requires hardcoding the device address as well as the security keys in the device.}
+      \field{chapter}{lorawan}
+      \field{howpublished}{https://www.thethingsnetwork.org/docs/lorawan/end-device-activation/}
+      \field{journaltitle}{The Things Network}
+      \field{langid}{american}
+      \field{title}{End {{Device Activation}}}
+      \field{urlday}{30}
+      \field{urlmonth}{8}
+      \field{urlyear}{2025}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /Users/christophschwarz/Zotero/storage/LVLY3N3C/end-device-activation.html
+      \endverb
+    \endentry
+    \entry{FrequencyPlans}{misc}{}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Frequency plans}
+      \field{howpublished}{https://www.thethingsindustries.com/docs/concepts/features/lorawan/frequency-plans/}
+      \field{title}{Frequency {{Plans}}}
+      \field{urlday}{27}
+      \field{urlmonth}{8}
+      \field{urlyear}{2025}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /Users/christophschwarz/Zotero/storage/UI9AFEQ2/frequency-plans.html
+      \endverb
+    \endentry
+    \entry{FrequencyShiftKeyingModulation2024}{article}{}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{labeltitlesource}{title}
+      \field{langid}{english}
+      \field{title}{Frequency-{{Shift Keying Modulation}} and {{Demodulation Using}} the {{Timer}}/{{Counter Peripherals}} on the {{AVR}}{®} {{EB}}}
+      \field{year}{2024}
+      \verb{file}
+      \verb /Users/christophschwarz/Zotero/storage/NGXPQMHQ/2024 - Frequency-Shift Keying Modulation and Demodulation Using the TimerCounter Peripherals on the AVR® E.pdf
+      \endverb
+    \endentry
+    \entry{GrundkenntnisseDrahtlosenKommunikation2023}{misc}{}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{In diesem Artikel haben wir versucht, das für das Verständnis der drahtlosen Kommunikation erforderliche Grundwissen zusammen mit den technischen Aspekten zu vermitteln. Dieser Artikel richtet sich an Anfänger, die Kenntnisse über drahtlose Kommunikation benötigen, und an diejenigen, die sich für die Kommunikation an sich interessieren.finden Sie technische Artikel von Murata.}
+      \field{howpublished}{https://article.murata.com/de/article/basics-of-wireless-communication-1}
+      \field{langid}{ngerman}
+      \field{month}{12}
+      \field{shorttitle}{{Grundkenntnisse der drahtlosen Kommunikation}}
+      \field{title}{{Grundkenntnisse der drahtlosen Kommunikation: Drahtloser Mechanismus (1) {|} Murata Manufacturing Articles}}
+      \field{urlday}{6}
+      \field{urlmonth}{8}
+      \field{urlyear}{2025}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /Users/christophschwarz/Zotero/storage/TVKR8Z3L/basics-of-wireless-communication-1.html
+      \endverb
+    \endentry
+    \entry{AWSPublic}{misc}{}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{labeltitlesource}{title}
+      \field{chapter}{Internet of Things}
+      \field{howpublished}{https://aws.amazon.com/blogs/iot/introducing-support-for-public-networks-with-aws-iot-core-for-lorawan/}
+      \field{month}{6}
+      \field{title}{Introducing Support for {{Public Networks}} with {{AWS IoT Core}} for {{LoRaWAN}} {|} {{The Internet}} of {{Things}} on {{AWS}} -- {{Official Blog}}}
+      \field{urlday}{27}
+      \field{urlmonth}{8}
+      \field{urlyear}{2025}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /Users/christophschwarz/Zotero/storage/KH3PUYR4/introducing-support-for-public-networks-with-aws-iot-core-for-lorawan.html
+      \endverb
+    \endentry
+    \entry{kufakunesuSurveyAdaptiveData2020}{article}{}
+      \name{author}{3}{}{%
+        {{hash=b147a4b3e2997469f383c569d79c8d55}{%
+           family={Kufakunesu},
+           familyi={K\bibinitperiod},
+           given={Rachel},
+           giveni={R\bibinitperiod}}}%
+        {{hash=32f4f0bc9eac0cbe311ef67cc742621f}{%
+           family={Hancke},
+           familyi={H\bibinitperiod},
+           given={Gerhard\bibnamedelima P.},
+           giveni={G\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=31615f6d2537ca85fe921b8481ca7b27}{%
+           family={{Abu-Mahfouz}},
+           familyi={A\bibinitperiod},
+           given={Adnan\bibnamedelima M.},
+           giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{5cb1dd4dc8725b6f2f42de0cbbcad704}
+      \strng{fullhash}{5cb1dd4dc8725b6f2f42de0cbbcad704}
+      \strng{bibnamehash}{5cb1dd4dc8725b6f2f42de0cbbcad704}
+      \strng{authorbibnamehash}{5cb1dd4dc8725b6f2f42de0cbbcad704}
+      \strng{authornamehash}{5cb1dd4dc8725b6f2f42de0cbbcad704}
+      \strng{authorfullhash}{5cb1dd4dc8725b6f2f42de0cbbcad704}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Long-Range Wide Area Network (LoRaWAN) is a fast-growing communication system for Low Power Wide Area Networks (LPWAN) in the Internet of Things (IoTs) deployments. LoRaWAN is built to optimize LPWANs for battery lifetime, capacity, range, and cost. LoRaWAN employs an Adaptive Data Rate (ADR) scheme that dynamically optimizes data rate, airtime, and energy consumption. The major challenge in LoRaWAN is that the LoRa specification does not state how the network server must command end nodes pertaining rate adaptation. As a result, numerous ADR schemes have been proposed to cater for the many applications of IoT technology, the quality of service requirements, different metrics, and radio frequency (RF) conditions. This offers a challenge for the reliability and suitability of these schemes. This paper presents a comprehensive review of the research on ADR algorithms for LoRaWAN technology. First, we provide an overview of LoRaWAN network performance that has been explored and documented in the literature and then focus on recent solutions for ADR as an optimization approach to improve throughput, energy efficiency and scalability. We then distinguish the approaches used, highlight their strengths and drawbacks, and provide a comparison of these approaches. Finally, we identify some research gaps and future directions.}
+      \field{issn}{1424-8220}
+      \field{journaltitle}{Sensors}
+      \field{langid}{english}
+      \field{month}{9}
+      \field{number}{18}
+      \field{shorttitle}{A {{Survey}} on {{Adaptive Data Rate Optimization}} in {{LoRaWAN}}}
+      \field{title}{A {{Survey}} on {{Adaptive Data Rate Optimization}} in {{LoRaWAN}}: {{Recent Solutions}} and {{Major Challenges}}}
+      \field{urlday}{27}
+      \field{urlmonth}{8}
+      \field{urlyear}{2025}
+      \field{volume}{20}
+      \field{year}{2020}
+      \field{urldateera}{ce}
+      \field{pages}{5044}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/s20185044
+      \endverb
+      \verb{file}
+      \verb /Users/christophschwarz/Zotero/storage/Q2IX3IMC/Kufakunesu et al. - 2020 - A Survey on Adaptive Data Rate Optimization in LoRaWAN Recent Solutions and Major Challenges.pdf
+      \endverb
+    \endentry
+    \entry{LanguageSupportZephyr}{misc}{}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{https://docs.zephyrproject.org/latest/develop/languages/index.html}
+      \field{title}{Language {{Support}} --- {{Zephyr Project Documentation}}}
+      \field{urlday}{29}
+      \field{urlmonth}{8}
+      \field{urlyear}{2025}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /Users/christophschwarz/Zotero/storage/BSUQ5GAM/index.html
+      \endverb
+    \endentry
+    \entry{lorawansmartindustry}{misc}{}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Oil \& Gas Monitor tanks, pipes, pressure vessels, rotating equipment, valves, and fluid levels, to enable leak detection and predictive maintenance. Manufacturing Efficiency \& Productivity Optimize the quality of manufacturing [{\dots}]}
+      \field{journaltitle}{LoRa Alliance{®}}
+      \field{langid}{american}
+      \field{title}{{{LoRaWAN}} for {{Smart Industry}}}
+      \field{urlday}{28}
+      \field{urlmonth}{8}
+      \field{urlyear}{2025}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /Users/christophschwarz/Zotero/storage/BQXUQWGP/industry-vertical-market.html
+      \endverb
+    \endentry
+    \entry{inproceedings}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=15f82c28fa626a53d12cd25a90651c87}{%
+           family={Lulu},
+           familyi={L\bibinitperiod},
+           given={Amro},
+           giveni={A\bibinitperiod}}}%
+        {{hash=73f99e1c99f6def085b326cc038a463d}{%
+           family={Mobasseri},
+           familyi={M\bibinitperiod},
+           given={Bijan},
+           giveni={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{11c705d0eee11a91d6dbcb31aa0006d7}
+      \strng{fullhash}{11c705d0eee11a91d6dbcb31aa0006d7}
+      \strng{bibnamehash}{11c705d0eee11a91d6dbcb31aa0006d7}
+      \strng{authorbibnamehash}{11c705d0eee11a91d6dbcb31aa0006d7}
+      \strng{authornamehash}{11c705d0eee11a91d6dbcb31aa0006d7}
+      \strng{authorfullhash}{11c705d0eee11a91d6dbcb31aa0006d7}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{4}
+      \field{title}{Dual-Use Chirp Spread Spectrum Waveform with Ranging Capability}
+      \field{year}{2019}
+      \field{pages}{1\bibrangedash 6}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1109/RADAR.2019.8835752
+      \endverb
+      \verb{file}
+      \verb /Users/christophschwarz/Zotero/storage/Y3B4V44P/Lulu und Mobasseri - 2019 - Dual-use chirp spread spectrum waveform with ranging capability.pdf
+      \endverb
+    \endentry
+    \entry{sornin2015lorawan}{misc}{}
+      \name{author}{2}{}{%
+        {{hash=2aa54a44e9bd353c6e9e3b1bfe715fd5}{%
+           family={{N. Sornin (Semtech), M. Luis (Semtech), T. Eirich (IBM), T. Kramp (IBM)}},
+           familyi={N\bibinitperiod}}}%
+        {{hash=af558d8c2b8e1824fdde13a5ab3eae4b}{%
+           family={{7 O.Hersent (Actility)}},
+           familyi={7\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {LoRa™ Alliance}%
+      }
+      \strng{namehash}{e582843e370bea6bd4dd769d565e0483}
+      \strng{fullhash}{e582843e370bea6bd4dd769d565e0483}
+      \strng{bibnamehash}{e582843e370bea6bd4dd769d565e0483}
+      \strng{authorbibnamehash}{e582843e370bea6bd4dd769d565e0483}
+      \strng{authornamehash}{e582843e370bea6bd4dd769d565e0483}
+      \strng{authorfullhash}{e582843e370bea6bd4dd769d565e0483}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{langid}{Englisch}
+      \field{month}{1}
+      \field{title}{{LoRa Specification}}
+      \field{urlday}{27}
+      \field{urlmonth}{8}
+      \field{urlyear}{2025}
+      \field{year}{2015}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /Users/christophschwarz/Zotero/storage/QJFLIY2X/_.pdf
+      \endverb
+    \endentry
+    \entry{TTNNetID}{misc}{}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We are building a global open free crowdsourced long range low power IoT data network}
+      \field{howpublished}{https://www.thethingsnetwork.org/docs/lorawan/prefix-assignments/}
+      \field{journaltitle}{The Things Network}
+      \field{langid}{american}
+      \field{title}{{{NetID}} and {{DevAddr Prefix Assignments}}}
+      \field{urlday}{27}
+      \field{urlmonth}{8}
+      \field{urlyear}{2025}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /Users/christophschwarz/Zotero/storage/A9QXMI78/prefix-assignments.html
+      \endverb
+    \endentry
+    \entry{PacketBroker}{misc}{}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{https://www.thethingsindustries.com/docs/concepts/packet-broker/}
+      \field{title}{Packet {{Broker}}}
+      \field{urlday}{27}
+      \field{urlmonth}{8}
+      \field{urlyear}{2025}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /Users/christophschwarz/Zotero/storage/9Y9DT4V6/packet-broker.html
+      \endverb
+    \endentry
+    \entry{proakisDigitalCommunications2008}{book}{}
+      \name{author}{2}{}{%
+        {{hash=5fe41cc224eb8b59f5bb9f1a7ba509f2}{%
+           family={Proakis},
+           familyi={P\bibinitperiod},
+           given={John\bibnamedelima G.},
+           giveni={J\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=b1e7a6c73f69c6c16233dbf5c83a00de}{%
+           family={Salehi},
+           familyi={S\bibinitperiod},
+           given={Masoud},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Boston}%
+      }
+      \list{publisher}{1}{%
+        {McGraw-Hill}%
+      }
+      \strng{namehash}{ab367421912bdf03ed020bffc5ad1f47}
+      \strng{fullhash}{ab367421912bdf03ed020bffc5ad1f47}
+      \strng{bibnamehash}{ab367421912bdf03ed020bffc5ad1f47}
+      \strng{authorbibnamehash}{ab367421912bdf03ed020bffc5ad1f47}
+      \strng{authornamehash}{ab367421912bdf03ed020bffc5ad1f47}
+      \strng{authorfullhash}{ab367421912bdf03ed020bffc5ad1f47}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{5th ed}
+      \field{isbn}{978-0-07-295716-7}
+      \field{langid}{english}
+      \field{title}{Digital Communications}
+      \field{year}{2008}
+      \verb{file}
+      \verb /Users/christophschwarz/Zotero/storage/3B2W8NTX/Proakis und Salehi - 2008 - Digital communications.pdf
+      \endverb
+      \keyw{Digital communications}
+    \endentry
+    \entry{RSSISNR}{misc}{}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We are building a global open free crowdsourced long range low power IoT data network}
+      \field{howpublished}{https://www.thethingsnetwork.org/docs/lorawan/rssi-and-snr/}
+      \field{journaltitle}{The Things Network}
+      \field{langid}{american}
+      \field{title}{{{RSSI}} and {{SNR}}}
+      \field{urlday}{6}
+      \field{urlmonth}{8}
+      \field{urlyear}{2025}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /Users/christophschwarz/Zotero/storage/SK8H87AU/rssi-and-snr.html
+      \endverb
+    \endentry
+    \entry{santos2020}{article}{}
+      \name{author}{7}{}{%
+        {{hash=ad890fce38215caa5312aedc2604ee7c}{%
+           family={Santos\bibnamedelima Filho},
+           familyi={S\bibinitperiod\bibinitdelim F\bibinitperiod},
+           given={Francisco\bibnamedelimb Helder\bibnamedelima C.},
+           giveni={F\bibinitperiod\bibinitdelim H\bibinitperiod\bibinitdelim C\bibinitperiod},
+           prefix={dos},
+           prefixi={d\bibinitperiod}}}%
+        {{hash=a77e38880bd0ca2af5dec80294814460}{%
+           family={Dester},
+           familyi={D\bibinitperiod},
+           given={Plínio\bibnamedelima S.},
+           giveni={P\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=6e2c6e69de3602b6578a001ce74f2d31}{%
+           family={Stancanelli},
+           familyi={S\bibinitperiod},
+           given={Elvis\bibnamedelimb M.\bibnamedelimi G.},
+           giveni={E\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=6fdd9981696d562c625d9cfa0bd2c841}{%
+           family={Cardieri},
+           familyi={C\bibinitperiod},
+           given={Paulo},
+           giveni={P\bibinitperiod}}}%
+        {{hash=f22dcd45039c67f59f76697dff3f7053}{%
+           family={Nardelli},
+           familyi={N\bibinitperiod},
+           given={Pedro\bibnamedelimb H.\bibnamedelimi J.},
+           giveni={P\bibinitperiod\bibinitdelim H\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=fec1901f9f2ef0b07b6c60ffc685cf4e}{%
+           family={Carrillo},
+           familyi={C\bibinitperiod},
+           given={Dick},
+           giveni={D\bibinitperiod}}}%
+        {{hash=4326aaf9ca0acb72dc358ff020930ff9}{%
+           family={Alves},
+           familyi={A\bibinitperiod},
+           given={Hirley},
+           giveni={H\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Multidisciplinary Digital Publishing Institute}%
+      }
+      \strng{namehash}{fe6e6636c25dd4e3c1869996be41c646}
+      \strng{fullhash}{b7ff873a6f3e73f8486f905898d0faeb}
+      \strng{bibnamehash}{fe6e6636c25dd4e3c1869996be41c646}
+      \strng{authorbibnamehash}{fe6e6636c25dd4e3c1869996be41c646}
+      \strng{authornamehash}{fe6e6636c25dd4e3c1869996be41c646}
+      \strng{authorfullhash}{b7ff873a6f3e73f8486f905898d0faeb}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This paper analyzes the feasibility of the coexistence of telemetry and alarm messages employing Long-Range Wide-Area Network (LoRaWAN) technology in industrial environments. The regular telemetry messages come from periodic measurements from the majority of sensors while the alarm messages come from sensors whose transmissions are triggered by rarer (random) events that require highly reliable communication. To reach such a strict requirement, we propose here strategies of allocation of spreading factor, by treating alarm and regular (telemetry) messages differently. The potential of such allocation strategies has also been investigated under retransmission and diversity of gateways. Both indoor industrial plant and open-field scenarios are investigated. We compare the proposed solution with a benchmark scenario---where no alarm is considered---by using system level simulation. Our results show that it is possible to achieve high reliability with reasonably low delay for the alarm messages without significantly affecting the performance of the regular links.}
+      \field{issn}{1424-8220}
+      \field{journaltitle}{Sensors}
+      \field{langid}{english}
+      \field{month}{1}
+      \field{number}{11}
+      \field{title}{Performance of {{LoRaWAN}} for {{Handling Telemetry}} and {{Alarm Messages}} in {{Industrial Applications}}}
+      \field{urlday}{28}
+      \field{urlmonth}{8}
+      \field{urlyear}{2025}
+      \field{volume}{20}
+      \field{year}{2020}
+      \field{urldateera}{ce}
+      \field{pages}{3061}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/s20113061
+      \endverb
+      \verb{file}
+      \verb /Users/christophschwarz/Zotero/storage/S5Y7HHAU/Santos Filho et al. - 2020 - Performance of LoRaWAN for Handling Telemetry and Alarm Messages in Industrial Applications.pdf
+      \endverb
+      \keyw{Industrial IoT,LoRa,LoRaWAN,LPWAN}
+    \endentry
+    \entry{SenetExt}{misc}{}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{https://docs.senetco.io/ap/extCoverageServices/}
+      \field{title}{Senet {{Portal Docs}}}
+      \field{urlday}{27}
+      \field{urlmonth}{8}
+      \field{urlyear}{2025}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /Users/christophschwarz/Zotero/storage/PKJAJLHH/extCoverageServices.html
+      \endverb
+    \endentry
+    \entry{SignaltoNoiseRatioSNR2020}{misc}{}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labeltitlesource}{title}
+      \field{abstract}{There is a concept known as the Signal to Noise Ratio or SNR, that ensures the best wireless functionality. The SNR is the difference between the received wireless signal and the noise floor.}
+      \field{howpublished}{https://documentation.meraki.com/MR/Wi-Fi\_Basics\_and\_Best\_Practices/Signal-to-Noise\_Ratio\_(SNR)\_and\_Wireless\_Signal\_Strength}
+      \field{journaltitle}{Cisco Meraki Documentation}
+      \field{langid}{english}
+      \field{month}{10}
+      \field{title}{Signal-to-{{Noise Ratio}} ({{SNR}}) and {{Wireless Signal Strength}}}
+      \field{urlday}{7}
+      \field{urlmonth}{8}
+      \field{urlyear}{2025}
+      \field{year}{2020}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /Users/christophschwarz/Zotero/storage/J92KCZT4/Signal-to-Noise_Ratio_(SNR)_and_Wireless_Signal_Strength.html
+      \endverb
+    \endentry
+    \entry{tamang2022}{misc}{}
+      \name{author}{5}{}{%
+        {{hash=4c6f6c04a57a7b13adeae53c3a707688}{%
+           family={Tamang},
+           familyi={T\bibinitperiod},
+           given={Dinesh},
+           giveni={D\bibinitperiod}}}%
+        {{hash=5060d7b220dd4285e8a6b77a1c7225ef}{%
+           family={Pozzebon},
+           familyi={P\bibinitperiod},
+           given={Alessandro},
+           giveni={A\bibinitperiod}}}%
+        {{hash=9b319cc9ebfd5959600300b3abad65be}{%
+           family={Parri},
+           familyi={P\bibinitperiod},
+           given={Lorenzo},
+           giveni={L\bibinitperiod}}}%
+        {{hash=4f016db29b199ec481a949c3174dbe53}{%
+           family={Fort},
+           familyi={F\bibinitperiod},
+           given={Ada},
+           giveni={A\bibinitperiod}}}%
+        {{hash=182aace720e3f9ad3d69c64bbfae2ed0}{%
+           family={Abrardo},
+           familyi={A\bibinitperiod},
+           given={Andrea},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {arXiv}%
+      }
+      \strng{namehash}{107f665fcf3111d40d044560e1d2bb30}
+      \strng{fullhash}{fd99352a6369284f545c3ee31aca889d}
+      \strng{bibnamehash}{107f665fcf3111d40d044560e1d2bb30}
+      \strng{authorbibnamehash}{107f665fcf3111d40d044560e1d2bb30}
+      \strng{authornamehash}{107f665fcf3111d40d044560e1d2bb30}
+      \strng{authorfullhash}{fd99352a6369284f545c3ee31aca889d}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In this article, we propose a reliable and low-latency Long Range Wide Area Network (LoRaWAN) solution for environmental monitoring in factories at major accident risk (FMAR). In particular, a low power wearable device for sensing the toxic inflammable gases inside an industrial plant is designed with the purpose of avoiding peculiar risks and unwanted accidents to occur. Moreover, the detected data have to be urgently and reliably delivered to remote server to trigger preventive immediate actions so as to improve the machine operation. In these settings, LoRaWAN has been identified as the most proper communications technology to the needs owing to the availability of off the shelf devices and software. Hence, we assess the technological limits of LoRaWAN in terms of latency and reliability and we propose a fully LoRaWAN compliant solution to overcome these limits. The proposed solution envisages coordinated end device (ED) transmissions through the use of Downlink Control Packets (DCPs). Experimental results validate the proposed method in terms of service requirements for the considered FMAR scenario.}
+      \field{eprintclass}{eess}
+      \field{eprinttype}{arXiv}
+      \field{month}{2}
+      \field{number}{arXiv:2202.08742}
+      \field{title}{Designing a Reliable and Low-Latency {{LoRaWAN}} Solution for Environmental Monitoring in Factories at Major Accident Risk}
+      \field{urlday}{28}
+      \field{urlmonth}{8}
+      \field{urlyear}{2025}
+      \field{year}{2022}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.48550/arXiv.2202.08742
+      \endverb
+      \verb{eprint}
+      \verb 2202.08742
+      \endverb
+      \verb{file}
+      \verb /Users/christophschwarz/Zotero/storage/J245RW8V/Tamang et al. - 2022 - Designing a reliable and low-latency LoRaWAN solution for environmental monitoring in factories at m.pdf;/Users/christophschwarz/Zotero/storage/YJLRSI6W/2202.html
+      \endverb
+      \keyw{Electrical Engineering and Systems Science - Signal Processing}
+    \endentry
+    \entry{TTNMapperDoc}{misc}{}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{labeltitlesource}{title}
+      \field{abstract}{TTN Mapper and CoverageMap.org are tools to map the coverage of LoRaWAN networks like The Things Network, The Things Stack, Helium and ChirpStack.}
+      \field{howpublished}{https://docs.ttnmapper.org/}
+      \field{journaltitle}{TTN Mapper Documentation}
+      \field{langid}{american}
+      \field{title}{{{TTN Mapper Documentation}}}
+      \field{urlday}{27}
+      \field{urlmonth}{8}
+      \field{urlyear}{2025}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /Users/christophschwarz/Zotero/storage/6AEMAA34/docs.ttnmapper.org.html
+      \endverb
+    \endentry
+    \entry{tulkaLoRaSpreadingFactor}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=138aa262501d0099eadc1ab6a4457620}{%
+           family={Tulka},
+           familyi={T\bibinitperiod},
+           given={Tomas},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{138aa262501d0099eadc1ab6a4457620}
+      \strng{fullhash}{138aa262501d0099eadc1ab6a4457620}
+      \strng{bibnamehash}{138aa262501d0099eadc1ab6a4457620}
+      \strng{authorbibnamehash}{138aa262501d0099eadc1ab6a4457620}
+      \strng{authornamehash}{138aa262501d0099eadc1ab6a4457620}
+      \strng{authorfullhash}{138aa262501d0099eadc1ab6a4457620}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Understanding LoRa/LoRaWAN data rates and spreading factors without a degree in electrical engineering.}
+      \field{howpublished}{https://blog.ttulka.com/lora-spreading-factor-explained}
+      \field{langid}{english}
+      \field{title}{{{LoRa Spreading Factor Explained}} by {{Tomas Tulka}}}
+      \field{urlday}{7}
+      \field{urlmonth}{8}
+      \field{urlyear}{2025}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /Users/christophschwarz/Zotero/storage/34V5FJPT/lora-spreading-factor-explained.html
+      \endverb
+    \endentry
+    \entry{8067462}{article}{}
+      \name{author}{1}{}{%
+        {{hash=dce2699b2792a299aef1517f27d9897b}{%
+           family={Vangelista},
+           familyi={V\bibinitperiod},
+           given={Lorenzo},
+           giveni={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{dce2699b2792a299aef1517f27d9897b}
+      \strng{fullhash}{dce2699b2792a299aef1517f27d9897b}
+      \strng{bibnamehash}{dce2699b2792a299aef1517f27d9897b}
+      \strng{authorbibnamehash}{dce2699b2792a299aef1517f27d9897b}
+      \strng{authornamehash}{dce2699b2792a299aef1517f27d9897b}
+      \strng{authorfullhash}{dce2699b2792a299aef1517f27d9897b}
+      \field{sortinit}{V}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Signal Processing Letters}
+      \field{number}{12}
+      \field{title}{Frequency Shift Chirp Modulation: {{The LoRa}} Modulation}
+      \field{volume}{24}
+      \field{year}{2017}
+      \field{pages}{1818\bibrangedash 1821}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1109/LSP.2017.2762960
+      \endverb
+      \verb{file}
+      \verb /Users/christophschwarz/Zotero/storage/HGK7MP33/Vangelista - 2017 - Frequency shift chirp modulation The LoRa modulation.pdf
+      \endverb
+      \keyw{AWGN channels,Chirp modulation,Demodulation,frequency shift chirp modulation (FSCM),Frequency shift keying,Internet of Things (IoT),LoRa,low power wide area networks (LPWAN),Power capacitors}
+    \endentry
+    \entry{ziemerPrinciplesCommunicationsSystems2015}{book}{}
+      \name{author}{2}{}{%
+        {{hash=f6dfe6f3ce0fc0b16e0e1e88ead83c2a}{%
+           family={Ziemer},
+           familyi={Z\bibinitperiod},
+           given={Rodger\bibnamedelima E.},
+           giveni={R\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=db97bcba4401a423fb557c51dd9e2e44}{%
+           family={Tranter},
+           familyi={T\bibinitperiod},
+           given={William\bibnamedelima H.},
+           giveni={W\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Danvers, MA}%
+      }
+      \list{publisher}{1}{%
+        {Wiley}%
+      }
+      \strng{namehash}{2a4ea9be6d354a38fd9be5ceed8ce6d2}
+      \strng{fullhash}{2a4ea9be6d354a38fd9be5ceed8ce6d2}
+      \strng{bibnamehash}{2a4ea9be6d354a38fd9be5ceed8ce6d2}
+      \strng{authorbibnamehash}{2a4ea9be6d354a38fd9be5ceed8ce6d2}
+      \strng{authornamehash}{2a4ea9be6d354a38fd9be5ceed8ce6d2}
+      \strng{authorfullhash}{2a4ea9be6d354a38fd9be5ceed8ce6d2}
+      \field{sortinit}{Z}
+      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{edition}{Seventh edition}
+      \field{isbn}{978-1-118-07891-4}
+      \field{langid}{english}
+      \field{shorttitle}{Principles of Communications}
+      \field{title}{Principles of Communications: Systems, Modulation, and Noise}
+      \field{year}{2015}
+      \verb{file}
+      \verb /Users/christophschwarz/Zotero/storage/3XES785V/Ziemer und Tranter - 2015 - Principles of communications systems, modulation, and noise.pdf
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

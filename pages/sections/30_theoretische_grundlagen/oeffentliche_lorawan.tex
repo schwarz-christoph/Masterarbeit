@@ -1,0 +1,43 @@
+\label{sec:ttn}
+
+Öffentliche LoRaWAN-Netze stellen Konnektivität als gemeinschaftliche oder kommerzielle Infrastruktur bereit. Im Gegensatz zu privaten Netzen (unter eigener Kontrolle) unterscheiden sie sich durch \emph{Zugang} (offen vs. vertraglich), \emph{Kostenmodell} (kostenfrei/Fair-Use vs. verbrauchs- oder Service-Level-Agreement (SLA)-basiert \footnote{Ein SLA ist eine vertraglich festgelegte Leistungszusage zwischen Anbieter und Nutzer eines Dienstes (z.\,B. garantierte Verfügbarkeit, Reaktionszeit oder Durchsatz). \emph{SLA-basiert} bedeutet, dass das Netzwerk diese zugesicherten Leistungsmerkmale vertraglich garantiert.}), \emph{Peering/Roaming} sowie \emph{Betriebs- und Sicherheitsprozesse}. 
+\autocite{LoRaWANBackendInterfaces11, RP002104, ETSIEN3002202025}
+
+\subsubsection*{Abgrenzung und Kategorien}
+In der Praxis zeigen sich drei Netzwerktypen:
+
+\begin{enumerate}
+  \item \textbf{Community-Netze} (z.\,B. The Things Network, TTN): offen, best-effort, Fair-Use, Enterprise-Plan.
+  \item \textbf{Dezentrale Crowd-Netze} (z.\,B. Helium~IoT): von vielen Hotspot-Betreibern getragen, nutzungsbasierte Abrechnung.
+  \item \textbf{Carrier/Neutral-Host} (z.\,B. Senet, Everynet): vertraglich, SLA/Peering, nur nationale Abdeckung.
+\end{enumerate}
+
+\subsubsection*{The Things Network (TTN)}
+TTN ist ein globales Community-Netz auf Basis von \emph{The Things Stack}. Es bietet einen kostenfreien Zugang unter einer Fair-Use-Policy. Die Fair-Use-Policy limitiert in der kostenfreien Version u.\,a. die Uplink-Airtime pro Gerät und Tag. Genauer sind es „30 Sekunden Uplink-Airtime pro Tag (24 Stunden) und Gerät sowie maximal 10 Downlink-Nachrichten pro Tag (24 Stunden) und Gerät“ \autocite{DutyCycleTTN}. SLAs bestehen im Community-Netz nicht, jedoch bietet die Enterprise-Variante kommerzielle Zusagen. Das Netzwerk nutzt \emph{Packet Broker} als globales Rückrad zur sicheren Weiterleitung von Verkehr zwischen Netzen. Das TTN ist über die Community-Projekte TTN Mapper \& Packet-Broker-Mapper kartiert \autocite{TTNFairUse, PacketBroker, TTNMapperDoc}.  
+
+Die Motivation zur Aufstellung eigener Gateways liegt im gemeinschaftlichen Charakter des Netzes: Durch zusätzliche Gateways wird die Netzabdeckung insgesamt verbessert, wovon wiederum alle Teilnehmer profitieren. Auch der Betreiber selbst erhält dadurch typischerweise eine stabilere Verbindung und bessere Abdeckung für seine eigenen Geräte. Jedoch ohne dass er dadurch mehr Nutzungsrechte erhält. TTN versteht sich damit als offenes, gemeinschaftsgetriebenes Infrastrukturprojekt, das vor allem durch den Nutzen der gemeinsamen Netzressourcen getragen wird.
+
+\subsubsection*{Helium IoT}
+Helium IoT ist ein globales LoRaWAN-Netzwerk, das von vielen unabhängigen Teilnehmern betrieben wird. Im Unterschied zu TTN ist die Nutzung nicht kostenlos, sondern erfolgt über sogenannte \emph{Data Credits (DC)}. Diese sind an den US-Dollar gebunden (fester Wert: 1\,DC = 0{,}00001\,USD) und können nur durch das \emph{Burning} von HNT-Token erzeugt werden. Dadurch wird ein direkter ökonomischer Anreiz geschaffen, der die Nachfrage nach Netzwerkressourcen mit dem Helium-Krypto-Token verbindet \autocite{HeliumDC}. 
+
+Ein Uplink von 24~Byte entspricht einem Abrechnungsblock. Downlinks sind in der Regel kostenfrei, können jedoch durch zusätzliche Konfiguration zuverlässiger gestaltet werden. Dafür können Betreiber von LoRaWAN-Network-Servern (LNS) mehrere Gateway-Duplikate pro Uplink \enquote{einkaufen} (\emph{multibuy}), um die Wahrscheinlichkeit einer erfolgreichen Zustellung zu erhöhen \autocite{HeliumLNSAdv}.  
+
+Neben der Nutzung führt das Modell von Helium auch zu einem finanziellen Anreiz für die Aufstellung von Gateways: Ähnlich wie bei anderen Kryptowährungen wird einem Betreiber eines Miners ein wirtschaftlicher Nutzen in Form von Token-Anteilen zugesichert. Betreiber erhalten durch die Bereitstellung eines Gateways und der damit verbundenen Netzwerkabdeckung Vergütungen in Form von HNT-Tokens. Die Höhe dieser Vergütung hängt dabei maßgeblich von der Erreichbarkeit benachbarter Gateways sowie von der Gateway-Dichte in der jeweiligen Region ab. Dieses Belohnungsmodell führte in der Vergangenheit zu einem schnellen und globalen Ausbau der Netzabdeckung, jedoch mit einer stark variierenden Qualität von Hardware und Installationsbedingungen.  
+
+Während das Helium-Netz dadurch eine breite Abdeckung erreichen konnte, ist die resultierende Infrastruktur weniger einheitlich als bei klassischen Community-Netzen. Professionelle Gateways mit optimaler Standortwahl stehen oftmals neben kostengünstigen Geräten, die unter suboptimalen Bedingungen betrieben werden. Dies wirkt sich unmittelbar auf die Netzqualität und Zuverlässigkeit aus, verdeutlicht jedoch zugleich die Stärke des ökonomischen Anreizes als Treiber für den Netzausbau.
+
+Die Netzabdeckung wird u.\,a. durch \emph{CoverageMap.net} vermessen, ein Service, der ursprünglich aus dem TTN Mapper-Projekt hervorgegangen ist \autocite{TTNMapperDoc}.
+
+
+\subsubsection*{Carrier-/Neutral-Host-Netze (Beispiele: Senet, Everynet, Actility/ThingPark)}
+Carrier- bzw. Neutral-Host-Netze bieten Konnektivität auf Basis von vertraglich zugesicherten Service-Level-Agreements (SLAs) an und greifen dabei teilweise auf überregionale Roaming-Abkommen zurück. 
+Ein Beispiel ist \emph{Senet} in den USA, das durch Roaming-Abkommen eine erweiterte Netzabdeckung („Extended Coverage“) bereitstellt, unter anderem auch durch eine Integration mit Helium \autocite{SenetExt}. 
+Das Unternehmen \emph{Everynet} betreibt Neutral-Host-Netze in mehreren Ländern und bietet zusätzlich Integrationen mit \emph{AWS IoT Core for LoRaWAN} an \autocite{AWSPublic}. 
+\emph{Actility} mit seiner Plattform \emph{ThingPark} gilt als einer der verbreitetsten Anbieter in diesem Bereich und stellt sowohl Roaming-Funktionalitäten als auch hybride Szenarien für verschiedene Betreiber bereit \autocite{ETSIEN3002202025}.
+
+
+\subsubsection*{Praktische Einordnung für diese Arbeit}
+Für prototypische \emph{Tracking}-Workloads sind TTN (kostenfrei, Fair-Use) und Helium (breite Crowd-Abdeckung, DC-basiert) aufgrund ihrer großen Abdeckung und einfachen Anwendung naheliegend. 
+Während TTN durch seine Community-getragene Struktur häufig qualitativ hochwertige Gateways bietet, die von technisch versierten Betreibern (z.\,B. Universitäten oder Kommunen) installiert werden, zeichnet sich Helium durch eine sehr große Anzahl an privat betriebenen Hotspots aus. 
+Dies führt zu einer breiten globalen Abdeckung, jedoch erreichen die im Helium-Netz eingesetzten Gateways häufig nicht die Qualitätsstandards, wie sie im TTN-Umfeld üblich sind. Gründe hierfür sind unter anderem weniger optimale Installationsorte sowie der Einsatz kostengünstigerer Hardware, beispielsweise bei Antennen und Kabeln.
+TTN eignet sich somit besonders für stabile Prototyping-Szenarien mit gut dokumentierten Tools und Community-Support, während Helium Vorteile bei einer schnellen globalen Skalierbarkeit bietet. 

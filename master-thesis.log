@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.1.17)  11 FEB 2025 12:51
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.1.17)  1 SEP 2025 17:30
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/Users/christophschwarz/Repositories/Masterthesis/master-thesis.tex
-(/Users/christophschwarz/Repositories/Masterthesis/master-thesis.tex
+**/Users/christophschwarz/Repositories/Masterarbeit/Masterthesis/master-thesis.tex
+(/Users/christophschwarz/Repositories/Masterarbeit/Masterthesis/master-thesis.tex
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
 (/usr/local/texlive/2024/texmf-dist/tex/latex/koma-script/scrartcl.cls
@@ -800,30 +800,30 @@ Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'ngerman'.
-LaTeX Font Info:    Trying to load font information for T1+ptm on input line 133.
+LaTeX Font Info:    Trying to load font information for T1+ptm on input line 134.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 ) (./master-thesis.aux)
 \openout1 = `master-thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 133.
-LaTeX Font Info:    ... okay on input line 133.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 133.
-LaTeX Font Info:    ... okay on input line 133.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 133.
-LaTeX Font Info:    ... okay on input line 133.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 133.
-LaTeX Font Info:    ... okay on input line 133.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 133.
-LaTeX Font Info:    ... okay on input line 133.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 133.
-LaTeX Font Info:    ... okay on input line 133.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 133.
-LaTeX Font Info:    ... okay on input line 133.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 133.
-LaTeX Font Info:    ... okay on input line 133.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 133.
-LaTeX Font Info:    ... okay on input line 133.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 134.
+LaTeX Font Info:    ... okay on input line 134.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 134.
+LaTeX Font Info:    ... okay on input line 134.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 134.
+LaTeX Font Info:    ... okay on input line 134.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 134.
+LaTeX Font Info:    ... okay on input line 134.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 134.
+LaTeX Font Info:    ... okay on input line 134.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 134.
+LaTeX Font Info:    ... okay on input line 134.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 134.
+LaTeX Font Info:    ... okay on input line 134.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 134.
+LaTeX Font Info:    ... okay on input line 134.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 134.
+LaTeX Font Info:    ... okay on input line 134.
  (/usr/local/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count433
@@ -844,9 +844,9 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
 \c@lstlisting=\count439
-Package tocbasic Info: setting babel extension for `lol' on input line 133.
+Package tocbasic Info: setting babel extension for `lol' on input line 134.
 \scr@dte@lstlisting@maxnumwidth=\skip100
-Package hyperref Info: Link coloring OFF on input line 133.
+Package hyperref Info: Link coloring OFF on input line 134.
  (./master-thesis.out) (./master-thesis.out)
 \@outlinefile=\write4
 \openout4 = `master-thesis.out'.
@@ -858,7 +858,7 @@ Class scrartcl Info: loading recommended package `bookmark'.
 (scrartcl)           `bookmarkpackage=false' before \begin{document} and
 (scrartcl)           you can avoid this message adding:
 (scrartcl)             \usepackage{bookmark}
-(scrartcl)           before \begin{document} on input line 133.
+(scrartcl)           before \begin{document} on input line 134.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/bookmark/bookmark.sty
 Package: bookmark 2023-12-10 v1.31 PDF bookmarks (HO)
  (/usr/local/texlive/2024/texmf-dist/tex/latex/bookmark/bkm-pdftex.def
@@ -886,62 +886,69 @@ Package biblatex Info: Automatic encoding selection.
 \openout3 = `master-thesis.bcf'.
 
 Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'master-thesis.bbl' not found.
+Package biblatex Info: ... file 'master-thesis.bbl' found.
+ (./master-thesis.bbl
 
-No file master-thesis.bbl.
-Package biblatex Info: Reference section=0 on input line 133.
-Package biblatex Info: Reference segment=0 on input line 133.
-(./pages/title.tex)
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
+(biblatex)                sandisk_sd
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+)
+Package biblatex Info: Reference section=0 on input line 134.
+Package biblatex Info: Reference segment=0 on input line 134.
+ (./pages/title.tex)
 <logos/university_logo.png, id=4, 1003.75pt x 463.23062pt>
 File: logos/university_logo.png Graphic file (type png)
 <use logos/university_logo.png>
-Package pdftex.def Info: logos/university_logo.png  used on input line 136.
+Package pdftex.def Info: logos/university_logo.png  used on input line 137.
 (pdftex.def)             Requested size: 142.26378pt x 65.65056pt.
-LaTeX Font Info:    Trying to load font information for T1+phv on input line 136.
+LaTeX Font Info:    Trying to load font information for T1+phv on input line 137.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/t1phv.fd
 File: t1phv.fd 2020/03/25 scalable font definitions for T1/phv.
 )
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 11.39996pt on input line 136.
+(Font)              scaled to size 11.39996pt on input line 137.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 11.39996pt on input line 136.
+(Font)              scaled to size 11.39996pt on input line 137.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 23.63593pt on input line 136.
+(Font)              scaled to size 23.63593pt on input line 137.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 13.67995pt on input line 136.
+(Font)              scaled to size 13.67995pt on input line 137.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 10.40245pt on input line 136.
-LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line 136.
+(Font)              scaled to size 10.40245pt on input line 137.
+LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line 137.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
 )
-LaTeX Font Info:    Trying to load font information for OML+ztmcm on input line 136.
+LaTeX Font Info:    Trying to load font information for OML+ztmcm on input line 137.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/omlztmcm.fd
 File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
-LaTeX Font Info:    Trying to load font information for OMS+ztmcm on input line 136.
+LaTeX Font Info:    Trying to load font information for OMS+ztmcm on input line 137.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/omsztmcm.fd
 File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
 )
-LaTeX Font Info:    Trying to load font information for OMX+ztmcm on input line 136.
+LaTeX Font Info:    Trying to load font information for OMX+ztmcm on input line 137.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/omxztmcm.fd
 File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
 )
-LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 136.
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 137.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 136.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 137.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 136.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 137.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 136.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 137.
  [1
 
 {/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc} <./logos/university_logo.png>]
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 16.41594pt on input line 140.
+(Font)              scaled to size 16.41594pt on input line 141.
  [2
 
 ] (./master-thesis.toc
@@ -959,15 +966,7 @@ File: figures/asstes/microdoc_logo.jpeg Graphic file (type jpg)
 <use figures/asstes/microdoc_logo.jpeg>
 Package pdftex.def Info: figures/asstes/microdoc_logo.jpeg  used on input line 38.
 (pdftex.def)             Requested size: 14.22546pt x 14.22636pt.
-
-
-Package fancyhdr Warning: \headheight is too small (18.125pt): 
-(fancyhdr)                Make it at least 18.5764pt, for example:
-(fancyhdr)                \setlength{\headheight}{18.5764pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-0.4514pt}.
-
-[3
+ [3
 
  <./figures/asstes/hm_logo.png> <./figures/asstes/microdoc_logo.jpeg>])
 \tf@toc=\write5
@@ -975,101 +974,450 @@ Package fancyhdr Warning: \headheight is too small (18.125pt):
 
 File: figures/asstes/hm_logo.png Graphic file (type png)
 <use figures/asstes/hm_logo.png>
-Package pdftex.def Info: figures/asstes/hm_logo.png  used on input line 146.
+Package pdftex.def Info: figures/asstes/hm_logo.png  used on input line 147.
 (pdftex.def)             Requested size: 30.78682pt x 14.22636pt.
 File: figures/asstes/microdoc_logo.jpeg Graphic file (type jpg)
 <use figures/asstes/microdoc_logo.jpeg>
-Package pdftex.def Info: figures/asstes/microdoc_logo.jpeg  used on input line 146.
+Package pdftex.def Info: figures/asstes/microdoc_logo.jpeg  used on input line 147.
 (pdftex.def)             Requested size: 14.22546pt x 14.22636pt.
-
-
-Package fancyhdr Warning: \headheight is too small (18.125pt): 
-(fancyhdr)                Make it at least 18.5764pt, for example:
-(fancyhdr)                \setlength{\headheight}{18.5764pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-0.4514pt}.
-
-[4]
+ [4] (./pages/sections/01_einleitung/1_einleitung.tex (./pages/sections/01_einleitung/motivation_problemstellung.tex) (./pages/sections/01_einleitung/zielsetung_arbeit.tex) (./pages/sections/01_einleitung/methodisches_vorgehen.tex
 File: figures/asstes/hm_logo.png Graphic file (type png)
 <use figures/asstes/hm_logo.png>
-Package pdftex.def Info: figures/asstes/hm_logo.png  used on input line 189.
+Package pdftex.def Info: figures/asstes/hm_logo.png  used on input line 6.
 (pdftex.def)             Requested size: 30.78682pt x 14.22636pt.
 File: figures/asstes/microdoc_logo.jpeg Graphic file (type jpg)
 <use figures/asstes/microdoc_logo.jpeg>
-Package pdftex.def Info: figures/asstes/microdoc_logo.jpeg  used on input line 189.
+Package pdftex.def Info: figures/asstes/microdoc_logo.jpeg  used on input line 6.
 (pdftex.def)             Requested size: 14.22546pt x 14.22636pt.
+ [1
+
+]))
+File: figures/asstes/hm_logo.png Graphic file (type png)
+<use figures/asstes/hm_logo.png>
+Package pdftex.def Info: figures/asstes/hm_logo.png  used on input line 152.
+(pdftex.def)             Requested size: 30.78682pt x 14.22636pt.
+File: figures/asstes/microdoc_logo.jpeg Graphic file (type jpg)
+<use figures/asstes/microdoc_logo.jpeg>
+Package pdftex.def Info: figures/asstes/microdoc_logo.jpeg  used on input line 152.
+(pdftex.def)             Requested size: 14.22546pt x 14.22636pt.
+ [2] (./pages/sections/30_theoretische_grundlagen/1_theoretische_grundlagen.tex (./pages/sections/30_theoretische_grundlagen/drahtlose_datenübertragung.tex
+<figures/asstes/frequency-shift-keying.png, id=128, 675.52374pt x 174.6525pt>
+File: figures/asstes/frequency-shift-keying.png Graphic file (type png)
+<use figures/asstes/frequency-shift-keying.png>
+Package pdftex.def Info: figures/asstes/frequency-shift-keying.png  used on input line 16.
+(pdftex.def)             Requested size: 337.76105pt x 87.32603pt.
+)
+File: figures/asstes/hm_logo.png Graphic file (type png)
+<use figures/asstes/hm_logo.png>
+Package pdftex.def Info: figures/asstes/hm_logo.png  used on input line 5.
+(pdftex.def)             Requested size: 30.78682pt x 14.22636pt.
+File: figures/asstes/microdoc_logo.jpeg Graphic file (type jpg)
+<use figures/asstes/microdoc_logo.jpeg>
+Package pdftex.def Info: figures/asstes/microdoc_logo.jpeg  used on input line 5.
+(pdftex.def)             Requested size: 14.22546pt x 14.22636pt.
+ [3] (./pages/sections/30_theoretische_grundlagen/bandbreite_frequenz.tex) (./pages/sections/30_theoretische_grundlagen/schlüsselmetriken_rssi_snr_pdr.tex
+File: figures/asstes/hm_logo.png Graphic file (type png)
+<use figures/asstes/hm_logo.png>
+Package pdftex.def Info: figures/asstes/hm_logo.png  used on input line 13.
+(pdftex.def)             Requested size: 30.78682pt x 14.22636pt.
+File: figures/asstes/microdoc_logo.jpeg Graphic file (type jpg)
+<use figures/asstes/microdoc_logo.jpeg>
+Package pdftex.def Info: figures/asstes/microdoc_logo.jpeg  used on input line 13.
+(pdftex.def)             Requested size: 14.22546pt x 14.22636pt.
+ [4
+pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.13 
+      <./figures/asstes/frequency-shift-keying.png>]) (./pages/sections/30_theoretische_grundlagen/lora_lorawan.tex
+<figures/diagrams/LoraWAN_OSI.png, id=160, 874.26625pt x 553.06625pt>
+File: figures/diagrams/LoraWAN_OSI.png Graphic file (type png)
+<use figures/diagrams/LoraWAN_OSI.png>
+Package pdftex.def Info: figures/diagrams/LoraWAN_OSI.png  used on input line 5.
+(pdftex.def)             Requested size: 349.7003pt x 221.22258pt.
 
 
-Package fancyhdr Warning: \headheight is too small (18.125pt): 
-(fancyhdr)                Make it at least 18.5764pt, for example:
-(fancyhdr)                \setlength{\headheight}{18.5764pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-0.4514pt}.
+LaTeX Warning: Reference `eckLoRaWANImDetail2019' on page 5 undefined on input line 6.
 
-[1
+
+LaTeX Warning: Reference `eckLoRaWANImDetail2019' on page 5 undefined on input line 6.
+
+File: figures/asstes/hm_logo.png Graphic file (type png)
+<use figures/asstes/hm_logo.png>
+Package pdftex.def Info: figures/asstes/hm_logo.png  used on input line 12.
+(pdftex.def)             Requested size: 30.78682pt x 14.22636pt.
+File: figures/asstes/microdoc_logo.jpeg Graphic file (type jpg)
+<use figures/asstes/microdoc_logo.jpeg>
+Package pdftex.def Info: figures/asstes/microdoc_logo.jpeg  used on input line 12.
+(pdftex.def)             Requested size: 14.22546pt x 14.22636pt.
+[5
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.12 
+      <./figures/diagrams/LoraWAN_OSI.png>]
+<figures/asstes/lora-chirps.png, id=170, 1022.31938pt x 203.25937pt>
+File: figures/asstes/lora-chirps.png Graphic file (type png)
+<use figures/asstes/lora-chirps.png>
+Package pdftex.def Info: figures/asstes/lora-chirps.png  used on input line 15.
+(pdftex.def)             Requested size: 408.9205pt x 81.30229pt.
+<figures/asstes/n-LoRa-CSS-each-symbol-is-encoded-as-a-single-circularly-shifted-chirp-and-covers-the.png, id=179, 679.53876pt x 307.1475pt>
+File: figures/asstes/n-LoRa-CSS-each-symbol-is-encoded-as-a-single-circularly-shifted-chirp-and-covers-the.png Graphic file (type png)
+<use figures/asstes/n-LoRa-CSS-each-symbol-is-encoded-as-a-single-circularly-shifted-chirp-and-covers-the.png>
+Package pdftex.def Info: figures/asstes/n-LoRa-CSS-each-symbol-is-encoded-as-a-single-circularly-shifted-chirp-and-covers-the.png  used on input line 48.
+(pdftex.def)             Requested size: 271.81068pt x 122.85681pt.
+File: figures/asstes/hm_logo.png Graphic file (type png)
+<use figures/asstes/hm_logo.png>
+Package pdftex.def Info: figures/asstes/hm_logo.png  used on input line 52.
+(pdftex.def)             Requested size: 30.78682pt x 14.22636pt.
+File: figures/asstes/microdoc_logo.jpeg Graphic file (type jpg)
+<use figures/asstes/microdoc_logo.jpeg>
+Package pdftex.def Info: figures/asstes/microdoc_logo.jpeg  used on input line 52.
+(pdftex.def)             Requested size: 14.22546pt x 14.22636pt.
+ [6
+pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.52 
+      <./figures/asstes/lora-chirps.png>]
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 73.
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/ts1ptm.fd
+File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
+)
+File: figures/asstes/hm_logo.png Graphic file (type png)
+<use figures/asstes/hm_logo.png>
+Package pdftex.def Info: figures/asstes/hm_logo.png  used on input line 76.
+(pdftex.def)             Requested size: 30.78682pt x 14.22636pt.
+File: figures/asstes/microdoc_logo.jpeg Graphic file (type jpg)
+<use figures/asstes/microdoc_logo.jpeg>
+Package pdftex.def Info: figures/asstes/microdoc_logo.jpeg  used on input line 76.
+(pdftex.def)             Requested size: 14.22546pt x 14.22636pt.
+ [7
+pdfTeX warning (ext4): destination with the same identifier (name{figure.4}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.76 
+      <./figures/asstes/n-LoRa-CSS-each-symbol-is-encoded-as-a-single-circularly-shifted-chirp-and-covers-the.png>]
+File: figures/asstes/hm_logo.png Graphic file (type png)
+<use figures/asstes/hm_logo.png>
+Package pdftex.def Info: figures/asstes/hm_logo.png  used on input line 95.
+(pdftex.def)             Requested size: 30.78682pt x 14.22636pt.
+File: figures/asstes/microdoc_logo.jpeg Graphic file (type jpg)
+<use figures/asstes/microdoc_logo.jpeg>
+Package pdftex.def Info: figures/asstes/microdoc_logo.jpeg  used on input line 95.
+(pdftex.def)             Requested size: 14.22546pt x 14.22636pt.
+ [8]
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 108.
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/base/t1cmtt.fd
+File: t1cmtt.fd 2023/04/13 v2.5m Standard LaTeX font definitions
+)) (./pages/sections/30_theoretische_grundlagen/oeffentliche_lorawan.tex
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 3.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 3.
+File: figures/asstes/hm_logo.png Graphic file (type png)
+<use figures/asstes/hm_logo.png>
+Package pdftex.def Info: figures/asstes/hm_logo.png  used on input line 5.
+(pdftex.def)             Requested size: 30.78682pt x 14.22636pt.
+File: figures/asstes/microdoc_logo.jpeg Graphic file (type jpg)
+<use figures/asstes/microdoc_logo.jpeg>
+Package pdftex.def Info: figures/asstes/microdoc_logo.jpeg  used on input line 5.
+(pdftex.def)             Requested size: 14.22546pt x 14.22636pt.
+ [9{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}]
+File: figures/asstes/hm_logo.png Graphic file (type png)
+<use figures/asstes/hm_logo.png>
+Package pdftex.def Info: figures/asstes/hm_logo.png  used on input line 22.
+(pdftex.def)             Requested size: 30.78682pt x 14.22636pt.
+File: figures/asstes/microdoc_logo.jpeg Graphic file (type jpg)
+<use figures/asstes/microdoc_logo.jpeg>
+Package pdftex.def Info: figures/asstes/microdoc_logo.jpeg  used on input line 22.
+(pdftex.def)             Requested size: 14.22546pt x 14.22636pt.
+ [10])
+File: figures/asstes/hm_logo.png Graphic file (type png)
+<use figures/asstes/hm_logo.png>
+Package pdftex.def Info: figures/asstes/hm_logo.png  used on input line 13.
+(pdftex.def)             Requested size: 30.78682pt x 14.22636pt.
+File: figures/asstes/microdoc_logo.jpeg Graphic file (type jpg)
+<use figures/asstes/microdoc_logo.jpeg>
+Package pdftex.def Info: figures/asstes/microdoc_logo.jpeg  used on input line 13.
+(pdftex.def)             Requested size: 14.22546pt x 14.22636pt.
+ [11] (./pages/sections/30_theoretische_grundlagen/industrielle_anwendungsbereiche.tex) (./pages/sections/30_theoretische_grundlagen/related_work.tex
+File: figures/asstes/hm_logo.png Graphic file (type png)
+<use figures/asstes/hm_logo.png>
+Package pdftex.def Info: figures/asstes/hm_logo.png  used on input line 5.
+(pdftex.def)             Requested size: 30.78682pt x 14.22636pt.
+File: figures/asstes/microdoc_logo.jpeg Graphic file (type jpg)
+<use figures/asstes/microdoc_logo.jpeg>
+Package pdftex.def Info: figures/asstes/microdoc_logo.jpeg  used on input line 5.
+(pdftex.def)             Requested size: 14.22546pt x 14.22636pt.
+ [12]))
+File: figures/asstes/hm_logo.png Graphic file (type png)
+<use figures/asstes/hm_logo.png>
+Package pdftex.def Info: figures/asstes/hm_logo.png  used on input line 156.
+(pdftex.def)             Requested size: 30.78682pt x 14.22636pt.
+File: figures/asstes/microdoc_logo.jpeg Graphic file (type jpg)
+<use figures/asstes/microdoc_logo.jpeg>
+Package pdftex.def Info: figures/asstes/microdoc_logo.jpeg  used on input line 156.
+(pdftex.def)             Requested size: 14.22546pt x 14.22636pt.
+ [13] (./pages/sections/40_konzept_tracking_system/1_konzept_tracking_system.tex (./pages/sections/40_konzept_tracking_system/systemanforderungen.tex) (./pages/sections/40_konzept_tracking_system/hardware_design.tex
+File: figures/asstes/hm_logo.png Graphic file (type png)
+<use figures/asstes/hm_logo.png>
+Package pdftex.def Info: figures/asstes/hm_logo.png  used on input line 2.
+(pdftex.def)             Requested size: 30.78682pt x 14.22636pt.
+File: figures/asstes/microdoc_logo.jpeg Graphic file (type jpg)
+<use figures/asstes/microdoc_logo.jpeg>
+Package pdftex.def Info: figures/asstes/microdoc_logo.jpeg  used on input line 2.
+(pdftex.def)             Requested size: 14.22546pt x 14.22636pt.
+ [14]
+<figures/diagrams/Architekturdiagramm_LoraE5mini.png, id=341, 753.81625pt x 292.09125pt>
+File: figures/diagrams/Architekturdiagramm_LoraE5mini.png Graphic file (type png)
+<use figures/diagrams/Architekturdiagramm_LoraE5mini.png>
+Package pdftex.def Info: figures/diagrams/Architekturdiagramm_LoraE5mini.png  used on input line 7.
+(pdftex.def)             Requested size: 376.90721pt x 146.04526pt.
+<figures/diagrams/Architekturdiagramm_ESP32.png, id=343, 753.81625pt x 352.31625pt>
+File: figures/diagrams/Architekturdiagramm_ESP32.png Graphic file (type png)
+<use figures/diagrams/Architekturdiagramm_ESP32.png>
+Package pdftex.def Info: figures/diagrams/Architekturdiagramm_ESP32.png  used on input line 16.
+(pdftex.def)             Requested size: 376.90721pt x 176.15768pt.
+File: figures/asstes/hm_logo.png Graphic file (type png)
+<use figures/asstes/hm_logo.png>
+Package pdftex.def Info: figures/asstes/hm_logo.png  used on input line 23.
+(pdftex.def)             Requested size: 30.78682pt x 14.22636pt.
+File: figures/asstes/microdoc_logo.jpeg Graphic file (type jpg)
+<use figures/asstes/microdoc_logo.jpeg>
+Package pdftex.def Info: figures/asstes/microdoc_logo.jpeg  used on input line 23.
+(pdftex.def)             Requested size: 14.22546pt x 14.22636pt.
+ [15
+pdfTeX warning (ext4): destination with the same identifier (name{figure.5}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.23     \item \textbf
+                      {GPS-Modul:} Das GNSS-Modul dient primär der Position...
+pdfTeX warning (ext4): destination with the same identifier (name{figure.6}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.23     \item \textbf
+                      {GPS-Modul:} Das GNSS-Modul dient primär der Position... <./figures/diagrams/Architekturdiagramm_LoraE5mini.png> <./figures/diagrams/Architekturdiagramm_ESP32.png>]) (./pages/sections/40_konzept_tracking_system/tooling_software_design.tex
+Underfull \hbox (badness 10000) in paragraph at lines 4--5
+
+ []
+
+File: figures/asstes/hm_logo.png Graphic file (type png)
+<use figures/asstes/hm_logo.png>
+Package pdftex.def Info: figures/asstes/hm_logo.png  used on input line 7.
+(pdftex.def)             Requested size: 30.78682pt x 14.22636pt.
+File: figures/asstes/microdoc_logo.jpeg Graphic file (type jpg)
+<use figures/asstes/microdoc_logo.jpeg>
+Package pdftex.def Info: figures/asstes/microdoc_logo.jpeg  used on input line 7.
+(pdftex.def)             Requested size: 14.22546pt x 14.22636pt.
+[16]
+<figures/asstes/lorawan-packet-layout.png, id=360, 859.65166pt x 137.313pt>
+File: figures/asstes/lorawan-packet-layout.png Graphic file (type png)
+<use figures/asstes/lorawan-packet-layout.png>
+Package pdftex.def Info: figures/asstes/lorawan-packet-layout.png  used on input line 18.
+(pdftex.def)             Requested size: 429.82478pt x 68.65633pt.
+) (./pages/sections/40_konzept_tracking_system/implementierung.tex
+File: figures/asstes/hm_logo.png Graphic file (type png)
+<use figures/asstes/hm_logo.png>
+Package pdftex.def Info: figures/asstes/hm_logo.png  used on input line 5.
+(pdftex.def)             Requested size: 30.78682pt x 14.22636pt.
+File: figures/asstes/microdoc_logo.jpeg Graphic file (type jpg)
+<use figures/asstes/microdoc_logo.jpeg>
+Package pdftex.def Info: figures/asstes/microdoc_logo.jpeg  used on input line 5.
+(pdftex.def)             Requested size: 14.22546pt x 14.22636pt.
+ [17
+pdfTeX warning (ext4): destination with the same identifier (name{figure.7}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.5 
+     <./figures/asstes/lorawan-packet-layout.png>]
+Overfull \hbox (19.9048pt too wide) in paragraph at lines 10--11
+[] []\T1/phv/b/n/12 Netzbeitritt und Sen-den[] \T1/ptm/m/n/12 Der Netz-bei-tritt nutzt OTAA (wie in Ab-schnitt []3.2[] Join-Mechanismus
+ []
+
+)
+Overfull \hbox (0.7555pt too wide) in paragraph at lines 19--10
+\T1/cmtt/m/n/12 /SD:/log.txt \T1/ptm/m/n/12 pro-to-kol-liert, um sp�-te-re Aus-wer-tun-gen zu er-m�g-li-chen. Downlink-Metadaten
+ []
+
+(./pages/sections/40_konzept_tracking_system/anwendungslogik.tex
+File: figures/asstes/hm_logo.png Graphic file (type png)
+<use figures/asstes/hm_logo.png>
+Package pdftex.def Info: figures/asstes/hm_logo.png  used on input line 14.
+(pdftex.def)             Requested size: 30.78682pt x 14.22636pt.
+File: figures/asstes/microdoc_logo.jpeg Graphic file (type jpg)
+<use figures/asstes/microdoc_logo.jpeg>
+Package pdftex.def Info: figures/asstes/microdoc_logo.jpeg  used on input line 14.
+(pdftex.def)             Requested size: 14.22546pt x 14.22636pt.
+ [18]) (./pages/sections/40_konzept_tracking_system/energiemanagement.tex
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 7.
+
+
+LaTeX Warning: Citation 'sandisk_sd' on page 19 undefined on input line 18.
+
+
+LaTeX Warning: Citation 'sandisk_sd' on page 19 undefined on input line 19.
+
+))
+File: figures/asstes/hm_logo.png Graphic file (type png)
+<use figures/asstes/hm_logo.png>
+Package pdftex.def Info: figures/asstes/hm_logo.png  used on input line 160.
+(pdftex.def)             Requested size: 30.78682pt x 14.22636pt.
+File: figures/asstes/microdoc_logo.jpeg Graphic file (type jpg)
+<use figures/asstes/microdoc_logo.jpeg>
+Package pdftex.def Info: figures/asstes/microdoc_logo.jpeg  used on input line 160.
+(pdftex.def)             Requested size: 14.22546pt x 14.22636pt.
+ [19
+pdfTeX warning (ext4): destination with the same identifier (name{table.1}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.160 \newpage
+              ]
+File: figures/asstes/hm_logo.png Graphic file (type png)
+<use figures/asstes/hm_logo.png>
+Package pdftex.def Info: figures/asstes/hm_logo.png  used on input line 187.
+(pdftex.def)             Requested size: 30.78682pt x 14.22636pt.
+File: figures/asstes/microdoc_logo.jpeg Graphic file (type jpg)
+<use figures/asstes/microdoc_logo.jpeg>
+Package pdftex.def Info: figures/asstes/microdoc_logo.jpeg  used on input line 187.
+(pdftex.def)             Requested size: 14.22546pt x 14.22636pt.
+ [20]
+File: figures/asstes/hm_logo.png Graphic file (type png)
+<use figures/asstes/hm_logo.png>
+Package pdftex.def Info: figures/asstes/hm_logo.png  used on input line 193.
+(pdftex.def)             Requested size: 30.78682pt x 14.22636pt.
+File: figures/asstes/microdoc_logo.jpeg Graphic file (type jpg)
+<use figures/asstes/microdoc_logo.jpeg>
+Package pdftex.def Info: figures/asstes/microdoc_logo.jpeg  used on input line 193.
+(pdftex.def)             Requested size: 14.22546pt x 14.22636pt.
+ [21]
+Overfull \hbox (118.83223pt too wide) in paragraph at lines 195--195
+\T1/ptm/m/it/12 den\T1/ptm/m/n/12 . https://im.baden-wuerttemberg.de/de/service/presse-und-oeffentlichkeitsarbeit/pressemitteilung/pid/baden-
+ []
+
+
+Overfull \hbox (2.41113pt too wide) in paragraph at lines 195--195
+\T1/ptm/m/n/12 wuerttemberg-foerdert-long-range-wide-area-networks-in-staedten-und-gemeinden. Ju-
+ []
+
+
+Overfull \hbox (38.5545pt too wide) in paragraph at lines 195--195
+[]\T1/ptm/m/it/12 End De-vi-ce Ac-ti-va-ti-on\T1/ptm/m/n/12 . https://www.thethingsnetwork.org/docs/lorawan/end-device-activation/.
+ []
+
+File: figures/asstes/hm_logo.png Graphic file (type png)
+<use figures/asstes/hm_logo.png>
+Package pdftex.def Info: figures/asstes/hm_logo.png  used on input line 194.
+(pdftex.def)             Requested size: 30.78682pt x 14.22636pt.
+File: figures/asstes/microdoc_logo.jpeg Graphic file (type jpg)
+<use figures/asstes/microdoc_logo.jpeg>
+Package pdftex.def Info: figures/asstes/microdoc_logo.jpeg  used on input line 194.
+(pdftex.def)             Requested size: 14.22546pt x 14.22636pt.
+[22
 
 ]
-Overfull \vbox (300.13974pt too high) has occurred while \output is active []
+Overfull \hbox (53.39804pt too wide) in paragraph at lines 195--195
+[]\T1/ptm/m/it/12 Frequency Plans\T1/ptm/m/n/12 . https://www.thethingsindustries.com/docs/concepts/features/lorawan/frequency-
+ []
+
+
+Overfull \hbox (161.20573pt too wide) in paragraph at lines 195--195
+[]\T1/ptm/m/it/12 Language Sup-port --- Ze-phyr Pro-ject Do-cu-men-ta-ti-on\T1/ptm/m/n/12 . htt-ps://docs.zephyrproject.org/latest/develop/languages/index.html.
+ []
+
+
+Overfull \hbox (42.58707pt too wide) in paragraph at lines 195--195
+[]\T1/ptm/m/it/12 NetID and De-vAd-dr Pre-fix As-si-gnments\T1/ptm/m/n/12 . https://www.thethingsnetwork.org/docs/lorawan/prefix-
+ []
+
+
+Overfull \hbox (1.3948pt too wide) in paragraph at lines 195--195
+[]\T1/ptm/m/it/12 Packet Bro-ker\T1/ptm/m/n/12 . https://www.thethingsindustries.com/docs/concepts/packet-broker/. (Be-
+ []
+
+
+Overfull \hbox (0.51743pt too wide) in paragraph at lines 195--195
+[]\T1/ptm/m/n/12 John G. Proa-kis und Ma-soud Sa-le-hi. \T1/ptm/m/it/12 Di-gi-tal Com-mu-ni-ca-ti-ons\T1/ptm/m/n/12 . 5th ed. Bo-ston: McGraw-
+ []
 
 File: figures/asstes/hm_logo.png Graphic file (type png)
 <use figures/asstes/hm_logo.png>
-Package pdftex.def Info: figures/asstes/hm_logo.png  used on input line 189.
+Package pdftex.def Info: figures/asstes/hm_logo.png  used on input line 194.
 (pdftex.def)             Requested size: 30.78682pt x 14.22636pt.
 File: figures/asstes/microdoc_logo.jpeg Graphic file (type jpg)
 <use figures/asstes/microdoc_logo.jpeg>
-Package pdftex.def Info: figures/asstes/microdoc_logo.jpeg  used on input line 189.
+Package pdftex.def Info: figures/asstes/microdoc_logo.jpeg  used on input line 194.
 (pdftex.def)             Requested size: 14.22546pt x 14.22636pt.
+[23]
+Overfull \hbox (34.74738pt too wide) in paragraph at lines 195--195
+[]\T1/ptm/m/it/12 Senet Por-tal Docs\T1/ptm/m/n/12 . htt-ps://docs.senetco.io/ap/extCoverageServices/. (Be-sucht am 27.08.2025). 
+ []
 
 
-Package fancyhdr Warning: \headheight is too small (18.125pt): 
-(fancyhdr)                Make it at least 18.5764pt, for example:
-(fancyhdr)                \setlength{\headheight}{18.5764pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-0.4514pt}.
+Overfull \hbox (70.54593pt too wide) in paragraph at lines 195--195
+[]\T1/ptm/m/it/12 Signal-to-Noise Ra-tio (SNR) and Wi-re-less Si-gnal Strength\T1/ptm/m/n/12 . https://documentation.meraki.com/MR/Wi-
+ []
 
-[2]
+
+Overfull \hbox (36.77338pt too wide) in paragraph at lines 195--195
+\T1/ptm/m/n/12 Fi_Basics_and_Best_Practices/Signal-to-Noise_Ratio_(SNR)_and_Wireless_Signal_Strength.
+ []
+
+
+Overfull \hbox (95.82887pt too wide) in paragraph at lines 195--195
+[]\T1/ptm/m/it/12 STM32WL Se-ries - STMi-cro-elec-tro-nics\T1/ptm/m/n/12 . https://www.st.com/en/microcontrollers-microprocessors/stm32wl-
+ []
+
+
+Overfull \hbox (298.7132pt too wide) in paragraph at lines 195--195
+[]\T1/ptm/m/it/12 SX1276 Da-tas-heet\T1/ptm/m/n/12 . htt-ps://semtech.my.salesforce.com/sfc/p/#E0000000JelG/a/2R0000001Rbr/6EfVZUorrpoKFfvaF_Fkpgp5kzjiNyiAbqcpqh9qSjE.
+ []
+
+
+Overfull \hbox (28.19179pt too wide) in paragraph at lines 195--195
+[]\T1/ptm/m/n/12 Tomas Tul-ka. \T1/ptm/m/it/12 Lo-Ra Sprea-ding Fac-tor Ex-plai-ned by To-mas Tul-ka\T1/ptm/m/n/12 . https://blog.ttulka.com/lora-
+ []
+
+
+Overfull \hbox (13.67424pt too wide) in paragraph at lines 195--195
+\T1/ptm/m/n/12 https://www.lansitec.com/blogs/lorawan-the-superior-connectivity-option-for-long-range-
+ []
+
 File: figures/asstes/hm_logo.png Graphic file (type png)
 <use figures/asstes/hm_logo.png>
-Package pdftex.def Info: figures/asstes/hm_logo.png  used on input line 195.
+Package pdftex.def Info: figures/asstes/hm_logo.png  used on input line 194.
 (pdftex.def)             Requested size: 30.78682pt x 14.22636pt.
 File: figures/asstes/microdoc_logo.jpeg Graphic file (type jpg)
 <use figures/asstes/microdoc_logo.jpeg>
-Package pdftex.def Info: figures/asstes/microdoc_logo.jpeg  used on input line 195.
+Package pdftex.def Info: figures/asstes/microdoc_logo.jpeg  used on input line 194.
 (pdftex.def)             Requested size: 14.22546pt x 14.22636pt.
+[24]
+File: figures/asstes/hm_logo.png Graphic file (type png)
+<use figures/asstes/hm_logo.png>
+Package pdftex.def Info: figures/asstes/hm_logo.png  used on input line 197.
+(pdftex.def)             Requested size: 30.78682pt x 14.22636pt.
+File: figures/asstes/microdoc_logo.jpeg Graphic file (type jpg)
+<use figures/asstes/microdoc_logo.jpeg>
+Package pdftex.def Info: figures/asstes/microdoc_logo.jpeg  used on input line 197.
+(pdftex.def)             Requested size: 14.22546pt x 14.22636pt.
+ [25] (./master-thesis.lof
 
+LaTeX Warning: Reference `eckLoRaWANImDetail2019' on page 26 undefined on input line 3.
 
-Package fancyhdr Warning: \headheight is too small (18.125pt): 
-(fancyhdr)                Make it at least 18.5764pt, for example:
-(fancyhdr)                \setlength{\headheight}{18.5764pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-0.4514pt}.
-
-[3]
-
-LaTeX Warning: Empty bibliography on input line 196.
-
-(./master-thesis.lof)
+)
 \tf@lof=\write6
 \openout6 = `master-thesis.lof'.
 
 File: figures/asstes/hm_logo.png Graphic file (type png)
 <use figures/asstes/hm_logo.png>
-Package pdftex.def Info: figures/asstes/hm_logo.png  used on input line 203.
+Package pdftex.def Info: figures/asstes/hm_logo.png  used on input line 201.
 (pdftex.def)             Requested size: 30.78682pt x 14.22636pt.
 File: figures/asstes/microdoc_logo.jpeg Graphic file (type jpg)
 <use figures/asstes/microdoc_logo.jpeg>
-Package pdftex.def Info: figures/asstes/microdoc_logo.jpeg  used on input line 203.
+Package pdftex.def Info: figures/asstes/microdoc_logo.jpeg  used on input line 201.
 (pdftex.def)             Requested size: 14.22546pt x 14.22636pt.
-
-
-Package fancyhdr Warning: \headheight is too small (18.125pt): 
-(fancyhdr)                Make it at least 18.5764pt, for example:
-(fancyhdr)                \setlength{\headheight}{18.5764pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-0.4514pt}.
-
-[4
-
+ [26
 
 ] (./master-thesis.lot)
 \tf@lot=\write7
@@ -1077,21 +1425,13 @@ Package fancyhdr Warning: \headheight is too small (18.125pt):
 
 File: figures/asstes/hm_logo.png Graphic file (type png)
 <use figures/asstes/hm_logo.png>
-Package pdftex.def Info: figures/asstes/hm_logo.png  used on input line 207.
+Package pdftex.def Info: figures/asstes/hm_logo.png  used on input line 205.
 (pdftex.def)             Requested size: 30.78682pt x 14.22636pt.
 File: figures/asstes/microdoc_logo.jpeg Graphic file (type jpg)
 <use figures/asstes/microdoc_logo.jpeg>
-Package pdftex.def Info: figures/asstes/microdoc_logo.jpeg  used on input line 207.
+Package pdftex.def Info: figures/asstes/microdoc_logo.jpeg  used on input line 205.
 (pdftex.def)             Requested size: 14.22546pt x 14.22636pt.
-
-
-Package fancyhdr Warning: \headheight is too small (18.125pt): 
-(fancyhdr)                Make it at least 18.5764pt, for example:
-(fancyhdr)                \setlength{\headheight}{18.5764pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-0.4514pt}.
-
-[5
+ [27
 
 ] (./master-thesis.lol)
 \tf@lol=\write8
@@ -1099,33 +1439,30 @@ Package fancyhdr Warning: \headheight is too small (18.125pt):
 
 File: figures/asstes/hm_logo.png Graphic file (type png)
 <use figures/asstes/hm_logo.png>
-Package pdftex.def Info: figures/asstes/hm_logo.png  used on input line 211.
+Package pdftex.def Info: figures/asstes/hm_logo.png  used on input line 209.
 (pdftex.def)             Requested size: 30.78682pt x 14.22636pt.
 File: figures/asstes/microdoc_logo.jpeg Graphic file (type jpg)
 <use figures/asstes/microdoc_logo.jpeg>
-Package pdftex.def Info: figures/asstes/microdoc_logo.jpeg  used on input line 211.
+Package pdftex.def Info: figures/asstes/microdoc_logo.jpeg  used on input line 209.
 (pdftex.def)             Requested size: 14.22546pt x 14.22636pt.
-
-
-Package fancyhdr Warning: \headheight is too small (18.125pt): 
-(fancyhdr)                Make it at least 18.5764pt, for example:
-(fancyhdr)                \setlength{\headheight}{18.5764pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-0.4514pt}.
-
-[6
+ [28
 
 ] (./pages/declaration.tex
 Underfull \hbox (badness 10000) in paragraph at lines 4--5
 
  []
 
-<logos/signature.png, id=135, 679.78969pt x 161.85469pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--7
+
+ []
+
+<logos/signature.png, id=491, 679.78969pt x 161.85469pt>
 File: logos/signature.png Graphic file (type png)
 <use logos/signature.png>
-Package pdftex.def Info: logos/signature.png  used on input line 9.
+Package pdftex.def Info: logos/signature.png  used on input line 11.
 (pdftex.def)             Requested size: 76.18143pt x 18.13747pt.
-[7
+[29
 
  <./logos/signature.png>]) 
 enddocument/afterlastpage: lastpage setting LastPage.
@@ -1134,6 +1471,10 @@ enddocument/afterlastpage: lastpage setting LastPage.
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2020/03/25>
  ***********
+
+
+LaTeX Warning: There were undefined references.
+
 Package rerunfilecheck Info: File `master-thesis.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 Package logreq Info: Writing requests to 'master-thesis.run.xml'.
@@ -1141,18 +1482,18 @@ Package logreq Info: Writing requests to 'master-thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 24282 strings out of 474116
- 442188 string characters out of 5743682
- 1942187 words of memory out of 5000000
- 46264 multiletter control sequences out of 15000+600000
- 610568 words of font info for 107 fonts, out of 8000000 for 9000
+ 25184 strings out of 474116
+ 471269 string characters out of 5743682
+ 1944187 words of memory out of 5000000
+ 46925 multiletter control sequences out of 15000+600000
+ 656700 words of font info for 172 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
- 108i,15n,107p,10958b,2371s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2024/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
-Output written on master-thesis.pdf (11 pages, 110261 bytes).
+ 108i,15n,107p,10971b,3601s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on master-thesis.pdf (33 pages, 504294 bytes).
 PDF statistics:
- 289 PDF objects out of 1000 (max. 8388607)
- 261 compressed objects within 3 object streams
- 53 named destinations out of 1000 (max. 500000)
- 333 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 711 PDF objects out of 1000 (max. 8388607)
+ 625 compressed objects within 7 object streams
+ 184 named destinations out of 1000 (max. 500000)
+ 384 words of extra memory for PDF output out of 10000 (max. 10000000)
 

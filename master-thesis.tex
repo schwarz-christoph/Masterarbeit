@@ -10,6 +10,7 @@
 	titlepage
 ]{scrartcl}
 
+\setlength{\headheight}{18.5764pt}
 
 % **************************************************
 % Settings
@@ -26,15 +27,15 @@
 % **************************************************
 
 % Define the subsubsubsection command
-\newcommand{\subsubsubsection}[1]{\paragraph*{#1}\mbox{}\\}
+\newcommand{\subsubsubsection}[1]{\paragraph{#1}\mbox{}\\}
 \newcommand{\subsubsubsectionstar}[1]{\paragraph*{#1}\mbox{}\\}
 \setcounter{secnumdepth}{4}
 \setcounter{tocdepth}{4}
 
 \newcommand*{\getUniversity}{Hochschule für angewandte Wissenschaften München}
 \newcommand*{\getFaculty}{Fakultät für Informatik und Mathematik}
-\newcommand*{\getTitle}{Entwicklung und Analyse eines LoRaWAN-basierten Tracking-Systems zur globalen Überwachung von Transportgütern unter besonderer Berücksichtigung maritimer Logistikketten}
-\newcommand*{\getTitleEn}{Expanding a software toolchain to include continuous deployment, taking into account Linux- and cloud-based solutions with Debian packages.}
+\newcommand*{\getTitle}{Entwicklung und Analyse eines LoRaWAN-basierten Tracking-Systems zur globalen Überwachung von Transportgütern}
+\newcommand*{\getTitleEn}{English Title}
 \newcommand*{\getAuthor}{Christoph Schwarz}
 \newcommand*{\getMatriculationNumber}{32004720}
 \newcommand*{\getCourse}{Informatik (Master Embedded Computing)}
@@ -145,42 +146,39 @@
 
 \clearpage
 \pagenumbering{arabic}
+
 \section{Einleitung}
-\subsection{Motivation und Problemstellung}
-\subsection{Zielsetzung der Arbeit}
-\subsection{Methodisches Vorgehen}
+\input{pages/sections/01_einleitung/1_einleitung.tex}
+\newpage
 
-\section{Theoretische Grundlagen}
-\subsection{LoRa und LoRaWAN Technologie}
-\subsection{The Things Network (TTN)}
-\subsection{Helium Network}
-\subsection{Maritime Logistik und Transportüberwachung}
-\subsection{Latenzzeiten in IoT-Netzwerken}
+\section{Grundlagen}
+\input{pages/sections/30_theoretische_grundlagen/1_theoretische_grundlagen.tex}
+\newpage
 
-\section{Konzeption und Entwicklung des Tracking-Systems}
-\subsection{Systemanforderungen}
-\subsection{Hardware-Design}
-\subsection{Implementierung der LoRaWAN-Kommunikation}
-\subsection{Integration des Temperatur-Monitoring}
-\subsection{Energiemanagement und Batterielaufzeit}
+\section{Konzeptionierung und Entwicklung des Tracking-Systems}
+\input{pages/sections/40_konzept_tracking_system/1_konzept_tracking_system.tex}
+\newpage
 
-\section{Implementierung der Datenerfassung und -analyse}
-\subsection{TTN Mapper Integration}
-\subsection{Entwicklung der Datenbank-Struktur}
-\subsection{Implementierung der Analysewerkzeuge}
-\subsection{Visualisierung der Ergebnisse}
+\section{Implementierung des Analysewerkzeuges}
+\subsection{TTN Mapper}
+\subsection{Einflussfaktoren auf die Signalausbreitung (Umwelt, Gebäude, menschliche Aktivität)}
+\subsection{Implementierung des Analysewerkzeuges}
+\subsection{Modelle zur Schätzung der Verbindungsqualität}
+\subsubsection*{Log-Distanz-Modell (Log-Distance Path Loss Model)}
+\subsubsection*{Noch eins}
+\subsubsection*{Machine Learning Modell (DeepLora)}
 
-\section{Experimentelle Untersuchung und Auswertung}
-\subsection{Testszenarien und Versuchsaufbau}
-\subsection{Analyse der Signallaufzeiten}
-\subsection{Einfluss der Schiffsgeschwindigkeit}
-\subsection{Netzwerkabdeckung und Verbindungsqualität}
-\subsection{Auswertung der Kühlkettenüberwachung}
+\section{Untersuchung und Auswertung}
+\subsection{Überblick und Versuchsaufbau}
+\subsection{LoraWAN Tracking-System}
+\subsection{Analysewerkzeuge mit Signalausbreitungs-Modellen}
 
 \section{Diskussion der Ergebnisse}
+\subsection{Netzwerkabdeckung und Verbindungsqualität}
+\subsection{Grenzen und Herausforderungen}
+\subsection{Verbesserungspotentiale der Implementierungen}
 \subsection{Bewertung der Systemleistung}
-\subsection{Limitationen und Herausforderungen}
-\subsection{Verbesserungspotentiale}
+\subsection{Einordnung zu bestehenden Arbeiten}
 
 \section{Zusammenfassung und Ausblick}
 \subsection{Zusammenfassung der Ergebnisse}

@@ -1,0 +1,19 @@
+Im nachfolgenden soll die Implementierung des LoraWAN-Trackers beschrieben werden. Dabei wird der Systemstart und die Initialisierung der einzelnen Komponennten sowie der Datenpfad und das Paketfromat beschreiben. Des weiteren wird der Netzbeitritt so wie das Senden der Pakete erklärt. Auch wird beschreiben wie das Gerät Konfiguriert werden kann sowie die Interaktion mit der Shell bschrieben. Zuletzt soll noch drauf eingegangen werden wie die Fehlerbehandlung sowie das Logging funktioniert.
+
+\paragraph*{Systemstart und Initialisierung}
+Beim Start initialisiert die Firmware die Subsysteme in fester Reihenfolge: Shell, LED/GPIO, SD-Karte (FATFS, Mount-Punkt \texttt{/SD:}), GNSS-UART, LoRaWAN-Stack. Das LoRaWAN-Subsystem wird über die Zephyr-API gestartet und anschließend für EU868 konfiguriert. Ebenso wird ADR ist aktiviert. Die SD-Karte wird über das Disk-Access-API angebunden und als FATFS eingehängt. GNSS läuft als NMEA-Quelle am konfigurierten UART mit Callback-Registrierung.
+
+\paragraph*{Datenpfad und Paketformat}
+GNSS-Daten werden über einen Callback gelesen, aufbereitet und in eine kompakte Payload kodiert der genaue Aufbau des einzelnen Pakets wurde in Abschnitt \ref{sec:toolingsoftware} erklärt. Breite und Länge als \texttt{int64} big-endian, Höhe \texttt{int32}, Genauigkeit \texttt{uint16}, Satelliten \texttt{uint8}. Die Kodierung erfolgt in ein Byte-Array fester Länge. Die Position wird nur bei gültigem Fix versendet.
+
+\paragraph*{Netzbeitritt und Senden}
+Der Netzbeitritt nutzt OTAA (wie in Abschnitt \ref{sec:joinmechanissmus_otaa} Join-Mechanismus (OTAA)  erklärt). Die Join-Parameter (\texttt{dev\_eui}, \texttt{join\_eui}, \texttt{app\_key}) werden je nach Zielnetz, TTN oder Helium, gesetzt. Der \texttt{dev\_nonce} wird persistent verwaltet und vor jedem Join erhöht. Nach erfolgreichem Join sendet das Gerät bestätigte Uplinks (\texttt{CONFIRMED}) auf Port~2.
+
+\paragraph*{Persistenz und Konfiguration}
+Sendeintervall (\texttt{/SD:/int.txt}) und LoRaWAN-Nonce (\texttt{/SD:/nonce.txt}) sind persistent gespeichert. Beide werden beim Start gelesen. Das Intervall kann zur Laufzeit über die Shell gesetzt werden und wird sofort wirksam. Dateioperationen nutzen Zephyrs VFS und FATFS-Implementierung.
+
+\paragraph*{Shell-Befehle}
+Die Shell implementiert Befehle zum Setzen des Sendeintervalls sowie zum Abfragen von Positiondaten über das GPS modul. Ebenso kann ein Zähler der erfolgreicher Übertragungen ausgelesen werden. Die Implementierung verwendet das Zephyr-Shell-Subsystem mit statischen Kommandoregistrierungen.
+
+\paragraph*{Fehlerbehandlung und Logging}
+Wenn der Tracker in einen Fehlerzustand läuft wird das durch eine blinkende LED-Schleife auf dem jeweiligen Dev-Board signalisiert. Jede Sendeoperation wird mit Positionsdaten, RSSI/SNR (falls vorhanden) und Erfolgsflag in \texttt{/SD:/log.txt} protokolliert, um spätere Auswertungen zu ermöglichen. Downlink-Metadaten werden über einen registrierten Downlink-Callback erfasst.

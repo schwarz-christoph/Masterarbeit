@@ -1,0 +1,17 @@
+Das Tracking Gerät hat zwei grundlegende Betriebsmodi die im Nachfolgenden kurz erläuchtert werden sollen:
+
+\begin{itemize}
+    \item \textbf{Periodisches Senden:} 
+    Daten werden in festen Zeit Intervallen übermittelt (z.\,B. alle 5, 15 oder 60 Minuten). 
+    Dieser Ansatz ist einfach und sorgt für eine kontinuierliche Nachverfolgbarkeit über die Transportstrecke. 
+    Allerdings steigt der Energieverbrauch deutlich mit kürzer werdenden Intervallen \cite{lansitec2024lorawan,cloudstudio2023lorawan}.
+    
+    \item \textbf{Ereignisgesteuertes Senden:} 
+    Eine Übertragung erfolgt nur bei bestimmten Ereignissen, etwa beim Öffnen einer Plombe, Überschreiten eines Temperaturgrenzwertes 
+    oder bei Erschütterung des Transportguts. 
+    Dadurch lässt sich die Batterielaufzeit zwar signifikant verlängern, jedoch sind die Positionsdaten zwischen den Ereignissen lückenhaft 
+    \cite{tektelic2023assettracking,zhang2022lorawanmac}.
+\end{itemize}
+
+Am besten geeignet ist desswegen ein Hybrieder Ansatzt. Dabei sollen regelmäßige Intervall-Updates mit großen Intervallen mit zusätzlichen Ereignisübertragungen kombiniert werden. 
+Dadurch kann eine Balance zwischen Energieeffizienz und Transparenz der Transportüberwachung erreicht werden.

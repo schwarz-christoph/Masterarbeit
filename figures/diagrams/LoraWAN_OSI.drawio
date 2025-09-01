@@ -1,0 +1,85 @@
+<mxfile host="65bd71144e">
+    <diagram name="OSI vs LoRaWAN" id="0">
+        <mxGraphModel dx="956" dy="538" grid="1" gridSize="10" guides="1" tooltips="1" connect="0" arrows="0" fold="1" page="1" pageScale="1" pageWidth="1000" pageHeight="650" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="DATA" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E3F2FD;strokeColor=#1E88E5;fontSize=14;fontStyle=1;align=center;verticalAlign=middle" parent="1" vertex="1">
+                    <mxGeometry x="20" y="40" width="140" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="LAYER (OSI 7-Schichten)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F5E9;strokeColor=#2E7D32;fontSize=14;fontStyle=1;align=center;verticalAlign=middle" parent="1" vertex="1">
+                    <mxGeometry x="180" y="40" width="260" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="LAYER (LoRa / LoRaWAN)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFDE7;strokeColor=#F9A825;fontSize=14;fontStyle=1;align=center;verticalAlign=middle" parent="1" vertex="1">
+                    <mxGeometry x="470" y="40" width="260" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="DATA" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E3F2FD;strokeColor=#1E88E5;fontSize=14;fontStyle=1;align=center;verticalAlign=middle" parent="1" vertex="1">
+                    <mxGeometry x="750" y="40" width="140" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="Application&#xa;Network process to application" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#C8E6C9;strokeColor=#2E7D32;fontSize=12;align=center;verticalAlign=middle" parent="1" vertex="1">
+                    <mxGeometry x="180" y="100" width="260" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="Data" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E3F2FD;strokeColor=#1E88E5;fontSize=12;align=center;verticalAlign=middle" parent="1" vertex="1">
+                    <mxGeometry x="20" y="100" width="140" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="Presentation&#xa;Data representation and encryption" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#B2DFDB;strokeColor=#2E7D32;fontSize=12;align=center;verticalAlign=middle" parent="1" vertex="1">
+                    <mxGeometry x="180" y="170" width="260" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="Data" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E3F2FD;strokeColor=#1E88E5;fontSize=12;align=center;verticalAlign=middle" parent="1" vertex="1">
+                    <mxGeometry x="20" y="170" width="140" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="Session&#xa;Interhost communication" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#C8E6C9;strokeColor=#2E7D32;fontSize=12;align=center;verticalAlign=middle" parent="1" vertex="1">
+                    <mxGeometry x="180" y="240" width="260" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="Data" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E3F2FD;strokeColor=#1E88E5;fontSize=12;align=center;verticalAlign=middle" parent="1" vertex="1">
+                    <mxGeometry x="20" y="240" width="140" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="Transport&#xa;End-to-end connections" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#B2DFDB;strokeColor=#2E7D32;fontSize=12;align=center;verticalAlign=middle" parent="1" vertex="1">
+                    <mxGeometry x="180" y="310" width="260" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="Segments" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E3F2FD;strokeColor=#1E88E5;fontSize=12;align=center;verticalAlign=middle" parent="1" vertex="1">
+                    <mxGeometry x="20" y="310" width="140" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="Network&#xa;Path determination &amp; IP" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#C8E6C9;strokeColor=#2E7D32;fontSize=12;align=center;verticalAlign=middle" parent="1" vertex="1">
+                    <mxGeometry x="180" y="380" width="260" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="Packets" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E3F2FD;strokeColor=#1E88E5;fontSize=12;align=center;verticalAlign=middle" parent="1" vertex="1">
+                    <mxGeometry x="20" y="380" width="140" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="Data Link&#xa;MAC and LLC" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#B2DFDB;strokeColor=#2E7D32;fontSize=12;align=center;verticalAlign=middle" parent="1" vertex="1">
+                    <mxGeometry x="180" y="450" width="260" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="Frames" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E3F2FD;strokeColor=#1E88E5;fontSize=12;align=center;verticalAlign=middle" parent="1" vertex="1">
+                    <mxGeometry x="20" y="450" width="140" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="Physical&#xa;Media, signal, binary transmission" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#C8E6C9;strokeColor=#2E7D32;fontSize=12;align=center;verticalAlign=middle" parent="1" vertex="1">
+                    <mxGeometry x="180" y="520" width="260" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="Bits" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E3F2FD;strokeColor=#1E88E5;fontSize=12;align=center;verticalAlign=middle" parent="1" vertex="1">
+                    <mxGeometry x="20" y="520" width="140" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="" style="shape=line;strokeColor=#90A4AE;dashed=1;dashPattern=4 4;endArrow=none;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="440" y="80" width="1" height="510" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="LoRaWAN&#xa;MAC, logical addressing" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF9C4;strokeColor=#F9A825;fontSize=12;align=center;verticalAlign=middle" parent="1" vertex="1">
+                    <mxGeometry x="470" y="380" width="260" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="Frames" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E3F2FD;strokeColor=#1E88E5;fontSize=12;align=center;verticalAlign=middle" parent="1" vertex="1">
+                    <mxGeometry x="750" y="380" width="140" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="LoRa Data Link&#xa;Physical addressing" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFE082;strokeColor=#F9A825;fontSize=12;align=center;verticalAlign=middle" parent="1" vertex="1">
+                    <mxGeometry x="470" y="450" width="260" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="Packets" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E3F2FD;strokeColor=#1E88E5;fontSize=12;align=center;verticalAlign=middle" parent="1" vertex="1">
+                    <mxGeometry x="750" y="450" width="140" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="LoRa Physical&#xa;Binary RF transmission" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFECB3;strokeColor=#F9A825;fontSize=12;align=center;verticalAlign=middle" parent="1" vertex="1">
+                    <mxGeometry x="470" y="520" width="260" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="Bits" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E3F2FD;strokeColor=#1E88E5;fontSize=12;align=center;verticalAlign=middle" parent="1" vertex="1">
+                    <mxGeometry x="750" y="520" width="140" height="60" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

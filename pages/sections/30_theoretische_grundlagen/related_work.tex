@@ -1,0 +1,13 @@
+In diesem Abschnitt wird der aktuelle Forschungs- und Entwicklungsstand zu LoRaWAN im Kontext von Tracking-Systemen dargestellt. Ziel ist es, existierende Studien und Projekte zu analysieren, die sich mit der Leistungsfähigkeit, Energieeffizienz und Praxistauglichkeit von LoRaWAN im Bereich der globalen Güterüberwachung beschäftigen. 
+
+\paragraph*{LoRaWAN im Vergleich zu anderen LPWAN-Technologien}
+Mehrere Arbeiten vergleichen LoRaWAN mit alternativen LPWAN-Technologien wie Sigfox, NB-IoT und LTE-M. Studien zeigen, dass LoRaWAN insbesondere durch seine Flexibilität und die Verfügbarkeit von Community-Netzen (z.\,B. The Things Network genauer in Abschnitt \ref{sec:ttn} beschrieben) oft einfacher zu verwenden ist, während NB-IoT Vorteile in Netzstabilität und QoS bietet dafür aber auf Lizensierten Frequenzbändern arbeiten \cite{mekki2019overview, centenaro2016long,adelantado2017understanding}.  
+
+\paragraph*{Leistungsfähigkeit und Reichweite}
+Analysen der Reichweite von LoRaWAN zeigen, dass in urbanen Umgebungen typische Reichweiten von 2–5 km und in ländlichen Gebieten bis zu 15 km erreicht werden können \cite{augustin2016study, petajajarvi2017coverage}. Faktoren wie Bebauung, Antennenhöhe und Spreading Factor haben signifikanten Einfluss auf die Verbindungsqualität. 
+
+\paragraph*{Energieeffizienz}
+Für batteriebetriebene Endgeräte ist die Energiebilanz entscheidend. Arbeiten wie \cite{fialhoBatteryLifetimeEstimation2020, raza2017low,qiu2018survey} zeigen, dass LoRaWAN durch die Class-A-Architektur eine hohe Energieeffizienz erreicht, die Laufzeiten von mehreren Jahren bei typischen Sensordatenraten ermöglicht. Allerdings erfordert die Konfiguration des Duty-Cycles und der Sendeintervallen eine Balance zwischen Datenaktualität und Batterielaufzeit.
+
+\paragraph*{Anwendungsgebiete in der Logistik}
+LoRaWAN wird in zahlreichen Szenarien des IOTs eingesetzt, insbesondere in der Logistik für Güterverfolgung und Anwendungen in intelligenten Städten. Charakteristisch für die Anwendungsszenarien sind niedrige Datenraten, extrem geringer Energieverbrauch und lange Batterielaufzeiten, was für großflächige, wartungsarme Sensornetze wichtig ist. Im Bereich der Logistik werden vor allem Anwendungen wie die Überwachung von Transportgütern, Temperatur- oder Positionsdaten und allgemeine Güterverfolgung adressiert \cite{qiu2018survey}. Darüber hinaus betonen beide Studien die Bedeutung von Erweiterbarkeit und Zusammenarbeit zwischen verschiedenen Netzwerken, was durch Mechanismen wie Netzwechsel unterstützt werden kann \cite{raza2017low}.

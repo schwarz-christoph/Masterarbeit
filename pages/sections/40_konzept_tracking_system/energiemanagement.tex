@@ -1,0 +1,29 @@
+Die Herstellerangaben der wesentlichen Komponenten sind in Tabelle \ref{tab:stromverbrauch} zusammengefasst. 
+Für jede Betriebsart sind typische Ströme aufgeführt. Ebenso wurden eigene Messungen angestellt um die bestehenden Werte zu validieren.
+
+\begin{table}[H]
+\centering
+\scriptsize
+\begin{tabular}{|l|l|c|c|}
+\hline
+\textbf{Komponente} & \textbf{Modus} & \textbf{Strom Datenblatt} & \textbf{Messung} \\ \hline
+LoRa-E5 Mini & DS & 2,1 $\mu$A \cite{stm32wl} & ... \\ \hline
+ & TX 22 dBm & 122 mA \cite{seeed_lorae5} & ... \\ \hline
+ & RX & 5,5 mA \cite{seeed_lorae5} & ... \\ \hline
+Heltec ESP32 V2 & DS & 10 $\mu$A \cite{esp32_datasheet} & ... \\ \hline
+ & MCU aktiv & 20--80 mA \cite{esp32_datasheet} & ... \\ \hline
+ & LoRa TX 20 dBm & 120 mA \cite{sx1276_datasheet} & ... \\ \hline
+GPS (NEO-6M/ATGM336H) & Acquisition & 45 mA \cite{ublox_neo6m} & ... \\ \hline
+ & Tracking & 25 mA \cite{ublox_neo6m} & ... \\ \hline
+SD-Karte & Idle & 0,2--0,4 mA \cite{sandisk_sd} & ... \\ \hline
+ & Write & 30--100 mA \cite{sandisk_sd} & ... \\ \hline
+DS18B20 & Conversion & 1,5 mA \cite{ds18b20} & ... \\ \hline
+ & Standby & $<$1 $\mu$A \cite{ds18b20} & ... \\ \hline
+MPU-6050 & Aktiv & 3,9 mA \cite{mpu6050} & ... \\ \hline
+ & Sleep & 8 $\mu$A \cite{mpu6050} & ... \\ \hline
+OLED (Heltec) & On & 20--30 mA \cite{heltec_doc} & ... \\ \hline
+Plombe (GPIO) & Idle & $<$1 $\mu$A & ... \\ \hline
+\end{tabular}
+\caption{Stromaufnahme der Komponenten.}
+\label{tab:stromverbrauch}
+\end{table}

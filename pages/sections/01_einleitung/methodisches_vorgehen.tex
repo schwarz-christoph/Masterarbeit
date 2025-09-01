@@ -1,0 +1,14 @@
+Das Vorgehen dieser Arbeit gliedert Sich in drei Phasen:
+
+Als erstes soll mit der Entwicklung des LoRaWAN Tracking-Gerät begonnen werden. Basierend auf den definierten Anforderungen an Reichweite, Energieverbrauch und Modularität wurde ein prototypisches Tracking-Gerät entwickelt. Dies umfasste die Auswahl geeigneter Hardware-Komponenten, die Entwicklung der Firmware sowie die Integration in öffentliche LoRaWAN-Netzwerke wie The Things Network (TTN) und Helium. 
+
+Zum zweiten soll ein Analyse-Werkzeug entwickelt werden das bei der Bewertung der Verbindungsqualität über eine vorgegebene Strecke hilft. Hierzu soll das Werkzeug die RSSI mithilfe von diversen Modellen vorhersagen. Diese Analyse soll dann aufschluss über die Erreichbarkeit des jeweiligen Trackers und mögliche Abdeckungsfreie bereiche geben, die dann für die Planung der jeweiligen Transportroute genutzt werden können.
+
+Als letztes sollen die beiden Komponenten in realen Testszenarien validiert werden. Dazu werden beide Systeme in unterschiedlichen Szenarien geteste, um reale Umgebungsbedingungen und deren Einfluss zu untersuchen. Dabei wurden verschiedene Einflussfaktoren wie Bebauung, Umwelt und Bewegung berücksichtigt. Die gesammelten Daten dienten sowohl der Evaluierung der Systemleistung als auch der Validierung der im Analysewerkzeug implementierten Modelle.
+
+\subsubsection*{Definition Metriken}
+Zur Bewertung der Qualität drahtloser Verbindungen werden verschiedene Metriken verwendet, die jeweils unterschiedliche Aspekte der Signalübertragung abbilden. Diese Metriken ermöglichen es, die Qualität eines Datenpfades zu quantifizieren und kritische Schwellenwerte zu definieren, ab denen beispielsweise eine Datenübertragung als instabil oder unzuverlässig gilt.
+
+Im Rahmen dieser Arbeit dienen solche Metriken als Grundlage für die Analyse und Vorhersage der Verbindungsqualität. Dabei wird unter anderem betrachtet, wie stark ein Signal ist, wie hoch der Anteil fehlerfreier Übertragungen ist und welche Umgebungsbedingungen die Werte beeinflussen können.
+
+Konkrete Schwellenwerte, ab denen eine Verbindung als „gut“ oder „kritisch“ eingestuft wird, hängt immer von der eingesetzten Technologie sowie der spezifischen Hardware ab. Die genaue Definition und Anwendung dieser Metriken erfolgt in den nachfolgenden Kapiteln.
