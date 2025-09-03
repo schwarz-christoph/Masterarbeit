@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.1.17)  2 SEP 2025 00:37
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.1.17)  3 SEP 2025 10:58
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -983,11 +983,11 @@ Package pdftex.def Info: figures/asstes/microdoc_logo.jpeg  used on input line 1
  [4] (./pages/sections/01_einleitung/1_einleitung.tex (./pages/sections/01_einleitung/motivation_problemstellung.tex) (./pages/sections/01_einleitung/zielsetung_arbeit.tex) (./pages/sections/01_einleitung/methodisches_vorgehen.tex
 File: figures/asstes/hm_logo.png Graphic file (type png)
 <use figures/asstes/hm_logo.png>
-Package pdftex.def Info: figures/asstes/hm_logo.png  used on input line 6.
+Package pdftex.def Info: figures/asstes/hm_logo.png  used on input line 4.
 (pdftex.def)             Requested size: 30.78682pt x 14.22636pt.
 File: figures/asstes/microdoc_logo.jpeg Graphic file (type jpg)
 <use figures/asstes/microdoc_logo.jpeg>
-Package pdftex.def Info: figures/asstes/microdoc_logo.jpeg  used on input line 6.
+Package pdftex.def Info: figures/asstes/microdoc_logo.jpeg  used on input line 4.
 (pdftex.def)             Requested size: 14.22546pt x 14.22636pt.
  [1
 
@@ -1001,7 +1001,7 @@ File: figures/asstes/microdoc_logo.jpeg Graphic file (type jpg)
 Package pdftex.def Info: figures/asstes/microdoc_logo.jpeg  used on input line 152.
 (pdftex.def)             Requested size: 14.22546pt x 14.22636pt.
  [2] (./pages/sections/30_theoretische_grundlagen/1_theoretische_grundlagen.tex (./pages/sections/30_theoretische_grundlagen/drahtlose_datenübertragung.tex
-<figures/asstes/frequency-shift-keying.png, id=128, 675.52374pt x 174.6525pt>
+<figures/asstes/frequency-shift-keying.png, id=129, 675.52374pt x 174.6525pt>
 File: figures/asstes/frequency-shift-keying.png Graphic file (type png)
 <use figures/asstes/frequency-shift-keying.png>
 Package pdftex.def Info: figures/asstes/frequency-shift-keying.png  used on input line 16.
@@ -1018,19 +1018,19 @@ Package pdftex.def Info: figures/asstes/microdoc_logo.jpeg  used on input line 5
  [3] (./pages/sections/30_theoretische_grundlagen/bandbreite_frequenz.tex) (./pages/sections/30_theoretische_grundlagen/schlüsselmetriken_rssi_snr_pdr.tex
 File: figures/asstes/hm_logo.png Graphic file (type png)
 <use figures/asstes/hm_logo.png>
-Package pdftex.def Info: figures/asstes/hm_logo.png  used on input line 13.
+Package pdftex.def Info: figures/asstes/hm_logo.png  used on input line 4.
 (pdftex.def)             Requested size: 30.78682pt x 14.22636pt.
 File: figures/asstes/microdoc_logo.jpeg Graphic file (type jpg)
 <use figures/asstes/microdoc_logo.jpeg>
-Package pdftex.def Info: figures/asstes/microdoc_logo.jpeg  used on input line 13.
+Package pdftex.def Info: figures/asstes/microdoc_logo.jpeg  used on input line 4.
 (pdftex.def)             Requested size: 14.22546pt x 14.22636pt.
  [4
 pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.13 
-      <./figures/asstes/frequency-shift-keying.png>]) (./pages/sections/30_theoretische_grundlagen/lora_lorawan.tex
-<figures/diagrams/LoraWAN_OSI.png, id=160, 874.26625pt x 553.06625pt>
+l.4 
+     <./figures/asstes/frequency-shift-keying.png>]) (./pages/sections/30_theoretische_grundlagen/lora_lorawan.tex
+<figures/diagrams/LoraWAN_OSI.png, id=158, 874.26625pt x 553.06625pt>
 File: figures/diagrams/LoraWAN_OSI.png Graphic file (type png)
 <use figures/diagrams/LoraWAN_OSI.png>
 Package pdftex.def Info: figures/diagrams/LoraWAN_OSI.png  used on input line 5.
@@ -1044,98 +1044,107 @@ LaTeX Warning: Reference `eckLoRaWANImDetail2019' on page 5 undefined on input l
 
 File: figures/asstes/hm_logo.png Graphic file (type png)
 <use figures/asstes/hm_logo.png>
-Package pdftex.def Info: figures/asstes/hm_logo.png  used on input line 17.
+Package pdftex.def Info: figures/asstes/hm_logo.png  used on input line 9.
 (pdftex.def)             Requested size: 30.78682pt x 14.22636pt.
 File: figures/asstes/microdoc_logo.jpeg Graphic file (type jpg)
 <use figures/asstes/microdoc_logo.jpeg>
-Package pdftex.def Info: figures/asstes/microdoc_logo.jpeg  used on input line 17.
+Package pdftex.def Info: figures/asstes/microdoc_logo.jpeg  used on input line 9.
 (pdftex.def)             Requested size: 14.22546pt x 14.22636pt.
-[5
+[5]
+<figures/asstes/lora-chirps.png, id=170, 1022.31938pt x 203.25937pt>
+File: figures/asstes/lora-chirps.png Graphic file (type png)
+<use figures/asstes/lora-chirps.png>
+Package pdftex.def Info: figures/asstes/lora-chirps.png  used on input line 23.
+(pdftex.def)             Requested size: 408.9205pt x 81.30229pt.
+File: figures/asstes/hm_logo.png Graphic file (type png)
+<use figures/asstes/hm_logo.png>
+Package pdftex.def Info: figures/asstes/hm_logo.png  used on input line 30.
+(pdftex.def)             Requested size: 30.78682pt x 14.22636pt.
+File: figures/asstes/microdoc_logo.jpeg Graphic file (type jpg)
+<use figures/asstes/microdoc_logo.jpeg>
+Package pdftex.def Info: figures/asstes/microdoc_logo.jpeg  used on input line 30.
+(pdftex.def)             Requested size: 14.22546pt x 14.22636pt.
+ [6
 pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.17 \paragraph
-               *{Modulationstechnik} <./figures/diagrams/LoraWAN_OSI.png>]
-<figures/asstes/lora-chirps.png, id=173, 1022.31938pt x 203.25937pt>
-File: figures/asstes/lora-chirps.png Graphic file (type png)
-<use figures/asstes/lora-chirps.png>
-Package pdftex.def Info: figures/asstes/lora-chirps.png  used on input line 25.
-(pdftex.def)             Requested size: 408.9205pt x 81.30229pt.
-<figures/asstes/n-LoRa-CSS-each-symbol-is-encoded-as-a-single-circularly-shifted-chirp-and-covers-the.png, id=179, 679.53876pt x 307.1475pt>
-File: figures/asstes/n-LoRa-CSS-each-symbol-is-encoded-as-a-single-circularly-shifted-chirp-and-covers-the.png Graphic file (type png)
-<use figures/asstes/n-LoRa-CSS-each-symbol-is-encoded-as-a-single-circularly-shifted-chirp-and-covers-the.png>
-Package pdftex.def Info: figures/asstes/n-LoRa-CSS-each-symbol-is-encoded-as-a-single-circularly-shifted-chirp-and-covers-the.png  used on input line 49.
-(pdftex.def)             Requested size: 271.81068pt x 122.85681pt.
-File: figures/asstes/hm_logo.png Graphic file (type png)
-<use figures/asstes/hm_logo.png>
-Package pdftex.def Info: figures/asstes/hm_logo.png  used on input line 53.
-(pdftex.def)             Requested size: 30.78682pt x 14.22636pt.
-File: figures/asstes/microdoc_logo.jpeg Graphic file (type jpg)
-<use figures/asstes/microdoc_logo.jpeg>
-Package pdftex.def Info: figures/asstes/microdoc_logo.jpeg  used on input line 53.
-(pdftex.def)             Requested size: 14.22546pt x 14.22636pt.
- [6
+l.30 
+     
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.53 
-      <./figures/asstes/lora-chirps.png>]
+l.30 
+      <./figures/diagrams/LoraWAN_OSI.png> <./figures/asstes/lora-chirps.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 34--35
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 45--46
+
+ []
+
+<figures/asstes/n-LoRa-CSS-each-symbol-is-encoded-as-a-single-circularly-shifted-chirp-and-covers-the.png, id=187, 679.53876pt x 307.1475pt>
+File: figures/asstes/n-LoRa-CSS-each-symbol-is-encoded-as-a-single-circularly-shifted-chirp-and-covers-the.png Graphic file (type png)
+<use figures/asstes/n-LoRa-CSS-each-symbol-is-encoded-as-a-single-circularly-shifted-chirp-and-covers-the.png>
+Package pdftex.def Info: figures/asstes/n-LoRa-CSS-each-symbol-is-encoded-as-a-single-circularly-shifted-chirp-and-covers-the.png  used on input line 51.
+(pdftex.def)             Requested size: 271.81068pt x 122.85681pt.
 File: figures/asstes/hm_logo.png Graphic file (type png)
 <use figures/asstes/hm_logo.png>
-Package pdftex.def Info: figures/asstes/hm_logo.png  used on input line 79.
+Package pdftex.def Info: figures/asstes/hm_logo.png  used on input line 57.
 (pdftex.def)             Requested size: 30.78682pt x 14.22636pt.
 File: figures/asstes/microdoc_logo.jpeg Graphic file (type jpg)
 <use figures/asstes/microdoc_logo.jpeg>
-Package pdftex.def Info: figures/asstes/microdoc_logo.jpeg  used on input line 79.
+Package pdftex.def Info: figures/asstes/microdoc_logo.jpeg  used on input line 57.
 (pdftex.def)             Requested size: 14.22546pt x 14.22636pt.
- [7
+[7
 pdfTeX warning (ext4): destination with the same identifier (name{figure.4}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.79 
+l.57 
       <./figures/asstes/n-LoRa-CSS-each-symbol-is-encoded-as-a-single-circularly-shifted-chirp-and-covers-the.png>]
-<figures/asstes/lorawan-architecture.png, id=219, 3306.3525pt x 2095.83pt>
+<figures/asstes/lorawan-architecture.png, id=208, 3306.3525pt x 2095.83pt>
 File: figures/asstes/lorawan-architecture.png Graphic file (type png)
 <use figures/asstes/lorawan-architecture.png>
-Package pdftex.def Info: figures/asstes/lorawan-architecture.png  used on input line 101.
+Package pdftex.def Info: figures/asstes/lorawan-architecture.png  used on input line 83.
 (pdftex.def)             Requested size: 446.33833pt x 282.92484pt.
 File: figures/asstes/hm_logo.png Graphic file (type png)
 <use figures/asstes/hm_logo.png>
-Package pdftex.def Info: figures/asstes/hm_logo.png  used on input line 105.
+Package pdftex.def Info: figures/asstes/hm_logo.png  used on input line 87.
 (pdftex.def)             Requested size: 30.78682pt x 14.22636pt.
 File: figures/asstes/microdoc_logo.jpeg Graphic file (type jpg)
 <use figures/asstes/microdoc_logo.jpeg>
-Package pdftex.def Info: figures/asstes/microdoc_logo.jpeg  used on input line 105.
+Package pdftex.def Info: figures/asstes/microdoc_logo.jpeg  used on input line 87.
 (pdftex.def)             Requested size: 14.22546pt x 14.22636pt.
  [8]
 File: figures/asstes/hm_logo.png Graphic file (type png)
 <use figures/asstes/hm_logo.png>
-Package pdftex.def Info: figures/asstes/hm_logo.png  used on input line 117.
+Package pdftex.def Info: figures/asstes/hm_logo.png  used on input line 99.
 (pdftex.def)             Requested size: 30.78682pt x 14.22636pt.
 File: figures/asstes/microdoc_logo.jpeg Graphic file (type jpg)
 <use figures/asstes/microdoc_logo.jpeg>
-Package pdftex.def Info: figures/asstes/microdoc_logo.jpeg  used on input line 117.
+Package pdftex.def Info: figures/asstes/microdoc_logo.jpeg  used on input line 99.
 (pdftex.def)             Requested size: 14.22546pt x 14.22636pt.
  [9
 pdfTeX warning (ext4): destination with the same identifier (name{figure.5}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.117 
-       <./figures/asstes/lorawan-architecture.png>]
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 128.
+l.99 
+      <./figures/asstes/lorawan-architecture.png>]
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 110.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
 File: figures/asstes/hm_logo.png Graphic file (type png)
 <use figures/asstes/hm_logo.png>
-Package pdftex.def Info: figures/asstes/hm_logo.png  used on input line 133.
+Package pdftex.def Info: figures/asstes/hm_logo.png  used on input line 115.
 (pdftex.def)             Requested size: 30.78682pt x 14.22636pt.
 File: figures/asstes/microdoc_logo.jpeg Graphic file (type jpg)
 <use figures/asstes/microdoc_logo.jpeg>
-Package pdftex.def Info: figures/asstes/microdoc_logo.jpeg  used on input line 133.
+Package pdftex.def Info: figures/asstes/microdoc_logo.jpeg  used on input line 115.
 (pdftex.def)             Requested size: 14.22546pt x 14.22636pt.
  [10]
-LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 147.
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 129.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 )) (./pages/sections/30_theoretische_grundlagen/oeffentliche_lorawan.tex
@@ -1197,12 +1206,12 @@ File: figures/asstes/microdoc_logo.jpeg Graphic file (type jpg)
 Package pdftex.def Info: figures/asstes/microdoc_logo.jpeg  used on input line 2.
 (pdftex.def)             Requested size: 14.22546pt x 14.22636pt.
  [16]
-<figures/diagrams/Architekturdiagramm_LoraE5mini.png, id=361, 753.81625pt x 292.09125pt>
+<figures/diagrams/Architekturdiagramm_LoraE5mini.png, id=351, 753.81625pt x 292.09125pt>
 File: figures/diagrams/Architekturdiagramm_LoraE5mini.png Graphic file (type png)
 <use figures/diagrams/Architekturdiagramm_LoraE5mini.png>
 Package pdftex.def Info: figures/diagrams/Architekturdiagramm_LoraE5mini.png  used on input line 7.
 (pdftex.def)             Requested size: 376.90721pt x 146.04526pt.
-<figures/diagrams/Architekturdiagramm_ESP32.png, id=363, 753.81625pt x 352.31625pt>
+<figures/diagrams/Architekturdiagramm_ESP32.png, id=353, 753.81625pt x 352.31625pt>
 File: figures/diagrams/Architekturdiagramm_ESP32.png Graphic file (type png)
 <use figures/diagrams/Architekturdiagramm_ESP32.png>
 Package pdftex.def Info: figures/diagrams/Architekturdiagramm_ESP32.png  used on input line 16.
@@ -1239,7 +1248,7 @@ File: figures/asstes/microdoc_logo.jpeg Graphic file (type jpg)
 Package pdftex.def Info: figures/asstes/microdoc_logo.jpeg  used on input line 7.
 (pdftex.def)             Requested size: 14.22546pt x 14.22636pt.
 [18]
-<figures/asstes/lorawan-packet-layout.png, id=379, 859.65166pt x 137.313pt>
+<figures/asstes/lorawan-packet-layout.png, id=369, 859.65166pt x 137.313pt>
 File: figures/asstes/lorawan-packet-layout.png Graphic file (type png)
 <use figures/asstes/lorawan-packet-layout.png>
 Package pdftex.def Info: figures/asstes/lorawan-packet-layout.png  used on input line 18.
@@ -1484,7 +1493,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 6--7
 
  []
 
-<logos/signature.png, id=511, 679.78969pt x 161.85469pt>
+<logos/signature.png, id=501, 679.78969pt x 161.85469pt>
 File: logos/signature.png Graphic file (type png)
 <use logos/signature.png>
 Package pdftex.def Info: logos/signature.png  used on input line 11.
@@ -1509,18 +1518,18 @@ Package logreq Info: Writing requests to 'master-thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 25195 strings out of 474116
- 471517 string characters out of 5743682
+ 25178 strings out of 474116
+ 471363 string characters out of 5743682
  1943187 words of memory out of 5000000
- 46930 multiletter control sequences out of 15000+600000
- 656700 words of font info for 172 fonts, out of 8000000 for 9000
+ 46931 multiletter control sequences out of 15000+600000
+ 651506 words of font info for 159 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  108i,15n,107p,10971b,3601s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on master-thesis.pdf (35 pages, 810505 bytes).
+</usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on master-thesis.pdf (35 pages, 796427 bytes).
 PDF statistics:
- 732 PDF objects out of 1000 (max. 8388607)
- 641 compressed objects within 7 object streams
- 190 named destinations out of 1000 (max. 500000)
+ 713 PDF objects out of 1000 (max. 8388607)
+ 626 compressed objects within 7 object streams
+ 185 named destinations out of 1000 (max. 500000)
  389 words of extra memory for PDF output out of 10000 (max. 10000000)
 
